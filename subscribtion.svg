@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" width="1799px" height="1257px" viewBox="0, 0, 1799, 1257" preserveAspectRatio="none" contentStyleType="text/css" zoomAndPan="magnify" style="background:#FFFFFF;">
+  <defs />
+  <g>
+    <rect x="773.5" y="10" width="255" height="27.6094" id="_title" stroke-width="1" style="fill:none;stroke:none;" />
+    <text x="778.5" y="29.5332" textLength="245" lengthAdjust="spacing" font-family="sans-serif" font-size="14" font-weight="bold" style="fill:black;">Уведомления о получении товара</text>
+    <rect x="759.5" y="553.1016" width="10" height="160.1094" stroke-width="1" style="fill:white;stroke:#181818;" />
+    <rect x="759.5" y="1088.133" width="10" height="46.7031" stroke-width="1" style="fill:white;stroke:#181818;" />
+    <rect x="10" y="141.8281" width="1777.5" height="233.1641" stroke-width="1.5" style="fill:none;stroke:black;" />
+    <rect x="941.5" y="388.9922" width="846" height="109.4063" stroke-width="1.5" style="fill:none;stroke:black;" />
+    <rect x="10" y="512.3984" width="1783" height="630.4375" stroke-width="1.5" style="fill:none;stroke:black;" />
+    <line x1="53" y1="124.8281" x2="53" y2="1159.836" stroke-width="0.5" stroke-dasharray="5 5" style="stroke:#181818;" />
+    <line x1="357.5" y1="124.8281" x2="357.5" y2="1159.836" stroke-width="0.5" stroke-dasharray="5 5" style="stroke:#181818;" />
+    <line x1="764.5" y1="124.8281" x2="764.5" y2="1159.836" stroke-width="0.5" stroke-dasharray="5 5" style="stroke:#181818;" />
+    <line x1="1064.5" y1="124.8281" x2="1064.5" y2="1159.836" stroke-width="0.5" stroke-dasharray="5 5" style="stroke:#181818;" />
+    <line x1="1437" y1="124.8281" x2="1437" y2="1159.836" stroke-width="0.5" stroke-dasharray="5 5" style="stroke:#181818;" />
+    <line x1="1671" y1="124.8281" x2="1671" y2="1159.836" stroke-width="0.5" stroke-dasharray="5 5" style="stroke:#181818;" />
+    <line x1="1751.5" y1="124.8281" x2="1751.5" y2="1159.836" stroke-width="0.5" stroke-dasharray="5 5" style="stroke:#181818;" />
+    <text x="20" y="121.752" textLength="61" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Customer</text>
+    <ellipse cx="53.5" cy="55.7188" rx="8" ry="8" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <path d="M53.5 63.7188 L53.5 90.7188 M40.5 71.7188 L66.5 71.7188 M53.5 90.7188 L40.5 105.7188 M53.5 90.7188 L66.5 105.7188" stroke-width="0.5" style="fill:none;stroke:#181818;" />
+    <text x="20" y="1173.369" textLength="61" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Customer</text>
+    <ellipse cx="53.5" cy="1184.945" rx="8" ry="8" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <path d="M53.5 1192.945 L53.5 1219.945 M40.5 1200.945 L66.5 1200.945 M53.5 1219.945 L40.5 1234.945 M53.5 1219.945 L66.5 1234.945" stroke-width="0.5" style="fill:none;stroke:#181818;" />
+    <text x="346" y="104.1426" textLength="17" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">ЛК</text>
+    <text x="315.5" y="121.752" textLength="78" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">MarketPlace</text>
+    <path d="M337 61.6094 L337 85.6094 M337 73.6094 L354 73.6094" stroke-width="0.5" style="fill:none;stroke:#181818;" />
+    <ellipse cx="366" cy="73.6094" rx="12" ry="12" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <text x="346" y="1173.369" textLength="17" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">ЛК</text>
+    <text x="315.5" y="1190.979" textLength="78" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">MarketPlace</text>
+    <path d="M337 1198.055 L337 1222.055 M337 1210.055 L354 1210.055" stroke-width="0.5" style="fill:none;stroke:#181818;" />
+    <ellipse cx="366" cy="1210.055" rx="12" ry="12" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <text x="729" y="104.1426" textLength="65" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">BACKEND</text>
+    <text x="722.5" y="121.752" textLength="78" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">MarketPlace</text>
+    <ellipse cx="764.5" cy="73.6094" rx="12" ry="12" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <polygon points="760.5,61.6094 766.5,56.6094 764.5,61.6094 766.5,66.6094 760.5,61.6094" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <text x="729" y="1173.369" textLength="65" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">BACKEND</text>
+    <text x="722.5" y="1190.979" textLength="78" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">MarketPlace</text>
+    <ellipse cx="764.5" cy="1210.055" rx="12" ry="12" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <polygon points="760.5,1198.055 766.5,1193.055 764.5,1198.055 766.5,1203.055 760.5,1198.055" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <path d="M956.5 79.6094 L1172.5 79.6094 C1177.5 79.6094 1177.5 102.2188 1177.5 102.2188 C1177.5 102.2188 1177.5 124.8281 1172.5 124.8281 L956.5 124.8281 C951.5 124.8281 951.5 102.2188 951.5 102.2188 C951.5 102.2188 951.5 79.6094 956.5 79.6094" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <path d="M1172.5 79.6094 C1167.5 79.6094 1167.5 102.2188 1167.5 102.2188 C1167.5 124.8281 1172.5 124.8281 1172.5 124.8281" stroke-width="0.5" style="fill:none;stroke:#181818;" />
+    <text x="956.5" y="99.1426" textLength="206" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Товары, поступившие на склад</text>
+    <text x="1041.5" y="116.752" textLength="36" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Kafka</text>
+    <path d="M956.5 1158.836 L1172.5 1158.836 C1177.5 1158.836 1177.5 1181.445 1177.5 1181.445 C1177.5 1181.445 1177.5 1204.055 1172.5 1204.055 L956.5 1204.055 C951.5 1204.055 951.5 1181.445 951.5 1181.445 C951.5 1181.445 951.5 1158.836 956.5 1158.836" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <path d="M1172.5 1158.836 C1167.5 1158.836 1167.5 1181.445 1167.5 1181.445 C1167.5 1204.055 1172.5 1204.055 1172.5 1204.055" stroke-width="0.5" style="fill:none;stroke:#181818;" />
+    <text x="956.5" y="1178.369" textLength="206" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Товары, поступившие на склад</text>
+    <text x="1041.5" y="1195.979" textLength="36" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Kafka</text>
+    <rect x="1394" y="92.2188" width="87" height="31.6094" rx="2.5" ry="2.5" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <text x="1401" y="113.752" textLength="73" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Storehouse</text>
+    <rect x="1394" y="1158.836" width="87" height="31.6094" rx="2.5" ry="2.5" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <text x="1401" y="1180.369" textLength="73" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Storehouse</text>
+    <text x="1645" y="121.752" textLength="47" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">UserSH</text>
+    <ellipse cx="1671.5" cy="55.7188" rx="8" ry="8" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <path d="M1671.5 63.7188 L1671.5 90.7188 M1658.5 71.7188 L1684.5 71.7188 M1671.5 90.7188 L1658.5 105.7188 M1671.5 90.7188 L1684.5 105.7188" stroke-width="0.5" style="fill:none;stroke:#181818;" />
+    <text x="1645" y="1173.369" textLength="47" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">UserSH</text>
+    <ellipse cx="1671.5" cy="1184.945" rx="8" ry="8" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <path d="M1671.5 1192.945 L1671.5 1219.945 M1658.5 1200.945 L1684.5 1200.945 M1671.5 1219.945 L1658.5 1234.945 M1671.5 1219.945 L1684.5 1234.945" stroke-width="0.5" style="fill:none;stroke:#181818;" />
+    <text x="1739" y="104.1426" textLength="19" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">DB</text>
+    <text x="1725.5" y="121.752" textLength="46" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">MySQL</text>
+    <path d="M1733.5 53.6094 C1733.5 43.6094 1751.5 43.6094 1751.5 43.6094 C1751.5 43.6094 1769.5 43.6094 1769.5 53.6094 L1769.5 79.6094 C1769.5 89.6094 1751.5 89.6094 1751.5 89.6094 C1751.5 89.6094 1733.5 89.6094 1733.5 79.6094 L1733.5 53.6094" stroke-width="1.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <path d="M1733.5 53.6094 C1733.5 63.6094 1751.5 63.6094 1751.5 63.6094 C1751.5 63.6094 1769.5 63.6094 1769.5 53.6094" stroke-width="1.5" style="fill:none;stroke:#181818;" />
+    <text x="1739" y="1173.369" textLength="19" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">DB</text>
+    <text x="1725.5" y="1190.979" textLength="46" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">MySQL</text>
+    <path d="M1733.5 1204.055 C1733.5 1194.055 1751.5 1194.055 1751.5 1194.055 C1751.5 1194.055 1769.5 1194.055 1769.5 1204.055 L1769.5 1230.055 C1769.5 1240.055 1751.5 1240.055 1751.5 1240.055 C1751.5 1240.055 1733.5 1240.055 1733.5 1230.055 L1733.5 1204.055" stroke-width="1.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <path d="M1733.5 1204.055 C1733.5 1214.055 1751.5 1214.055 1751.5 1214.055 C1751.5 1214.055 1769.5 1214.055 1769.5 1204.055" stroke-width="1.5" style="fill:none;stroke:#181818;" />
+    <rect x="759.5" y="553.1016" width="10" height="160.1094" stroke-width="1" style="fill:white;stroke:#181818;" />
+    <rect x="759.5" y="1088.133" width="10" height="46.7031" stroke-width="1" style="fill:white;stroke:#181818;" />
+    <path d="M10 141.8281 L208 141.8281 L208 150.1797 L198 160.1797 L10 160.1797 L10 141.8281" stroke-width="1.5" style="fill:#EEEEEE;stroke:black;" />
+    <rect x="10" y="141.8281" width="1777.5" height="233.1641" stroke-width="1.5" style="fill:none;stroke:black;" />
+    <text x="25" y="156.3232" textLength="153" lengthAdjust="spacing" font-family="sans-serif" font-size="13" font-weight="bold" style="fill:black;">Оформление подписки</text>
+    <polygon points="345.5,178.5313 355.5,182.5313 345.5,186.5313 349.5,182.5313" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="53.5" y1="182.5313" x2="351.5" y2="182.5313" stroke-width="1" style="stroke:#181818;" />
+    <text x="60.5" y="177.6748" textLength="221" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Оформление подписки по ИД товара</text>
+    <polygon points="752.5,225.2344 762.5,229.2344 752.5,233.2344 756.5,229.2344" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="357.5" y1="229.2344" x2="758.5" y2="229.2344" stroke-width="1" style="stroke:#181818;" />
+    <text x="364.5" y="208.0264" textLength="296" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">POST {base_url}/users/{user_id}/product_subscribe</text>
+    <text x="368.5" y="224.3779" textLength="216" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Список ИД продуктов для подписки</text>
+    <polygon points="1739.5,271.9375 1749.5,275.9375 1739.5,279.9375 1743.5,275.9375" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="764.5" y1="275.9375" x2="1745.5" y2="275.9375" stroke-width="1" style="stroke:#181818;" />
+    <text x="771.5" y="254.7295" textLength="316" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">INSERT INTO ProductSubscription (ProductID, UserID)</text>
+    <text x="771.5" y="271.0811" textLength="190" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">VALUES ({product_id}, {user_id})</text>
+    <polygon points="775.5,302.2891 765.5,306.2891 775.5,310.2891 771.5,306.2891" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="769.5" y1="306.2891" x2="1750.5" y2="306.2891" stroke-width="1" stroke-dasharray="2 2" style="stroke:#181818;" />
+    <text x="781.5" y="301.4326" textLength="168" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Запись добавлена успешно</text>
+    <polygon points="368.5,332.6406 358.5,336.6406 368.5,340.6406 364.5,336.6406" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="362.5" y1="336.6406" x2="763.5" y2="336.6406" stroke-width="1" stroke-dasharray="2 2" style="stroke:#181818;" />
+    <text x="374.5" y="331.7842" textLength="262" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Количество успешно добавленных записей</text>
+    <polygon points="64.5,362.9922 54.5,366.9922 64.5,370.9922 60.5,366.9922" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="58.5" y1="366.9922" x2="356.5" y2="366.9922" stroke-width="1" stroke-dasharray="2 2" style="stroke:#181818;" />
+    <text x="70.5" y="362.1357" textLength="262" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Количество успешно добавленных записей</text>
+    <path d="M941.5 388.9922 L1258.5 388.9922 L1258.5 397.3438 L1248.5 407.3438 L941.5 407.3438 L941.5 388.9922" stroke-width="1.5" style="fill:#EEEEEE;stroke:black;" />
+    <rect x="941.5" y="388.9922" width="846" height="109.4063" stroke-width="1.5" style="fill:none;stroke:black;" />
+    <text x="956.5" y="403.4873" textLength="272" lengthAdjust="spacing" font-family="sans-serif" font-size="13" font-weight="bold" style="fill:black;">Ввод информации о поступлении товара</text>
+    <polygon points="1448.5,425.6953 1438.5,429.6953 1448.5,433.6953 1444.5,429.6953" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="1442.5" y1="429.6953" x2="1670.5" y2="429.6953" stroke-width="1" style="stroke:#181818;" />
+    <text x="1454.5" y="424.8389" textLength="210" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Информация о поступлении товара</text>
+    <polygon points="1075.5,456.0469 1065.5,460.0469 1075.5,464.0469 1071.5,460.0469" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="1069.5" y1="460.0469" x2="1436.5" y2="460.0469" stroke-width="1" style="stroke:#181818;" />
+    <text x="1081.5" y="455.1904" textLength="349" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Информация о поступлении товара с указанием ProductID</text>
+    <polygon points="1739.5,486.3984 1749.5,490.3984 1739.5,494.3984 1743.5,490.3984" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="1437.5" y1="490.3984" x2="1745.5" y2="490.3984" stroke-width="1" style="stroke:#181818;" />
+    <text x="1444.5" y="485.542" textLength="290" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Информация о количестве поступившего товара</text>
+    <path d="M10 512.3984 L281 512.3984 L281 520.75 L271 530.75 L10 530.75 L10 512.3984" stroke-width="1.5" style="fill:#EEEEEE;stroke:black;" />
+    <rect x="10" y="512.3984" width="1783" height="630.4375" stroke-width="1.5" style="fill:none;stroke:black;" />
+    <text x="25" y="526.8936" textLength="226" lengthAdjust="spacing" font-family="sans-serif" font-size="13" font-weight="bold" style="fill:black;">Уведомления о получении товара</text>
+    <polygon points="780.5,549.1016 770.5,553.1016 780.5,557.1016 776.5,553.1016" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="774.5" y1="553.1016" x2="1063.5" y2="553.1016" stroke-width="1" style="stroke:#181818;" />
+    <text x="786.5" y="548.2451" textLength="276" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Сообщение о поступлении товара (product_id}</text>
+    <path d="M733 566.1016 L733 592.1016 L1783 592.1016 L1783 576.1016 L1773 566.1016 L733 566.1016" stroke-width="0.5" style="fill:#FEFFDD;stroke:#181818;" />
+    <path d="M1773 566.1016 L1773 576.1016 L1783 576.1016 L1773 566.1016" stroke-width="0.5" style="fill:#FEFFDD;stroke:#181818;" />
+    <text x="1104" y="584.5967" textLength="299" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Поиск пользователей, подписанных на этот товар</text>
+    <polygon points="1739.5,648.5078 1749.5,652.5078 1739.5,656.5078 1743.5,652.5078" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="769.5" y1="652.5078" x2="1745.5" y2="652.5078" stroke-width="1" style="stroke:#181818;" />
+    <text x="776.5" y="614.9482" textLength="93" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">SELECT UserID</text>
+    <text x="776.5" y="631.2998" textLength="159" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">FROM ProductSubscription</text>
+    <text x="776.5" y="647.6514" textLength="194" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">WHERE ProductID = {product_id}</text>
+    <polygon points="780.5,678.8594 770.5,682.8594 780.5,686.8594 776.5,682.8594" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="774.5" y1="682.8594" x2="1750.5" y2="682.8594" stroke-width="1" stroke-dasharray="2 2" style="stroke:#181818;" />
+    <text x="786.5" y="678.0029" textLength="332" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Список пользователей, подписанных на товар [user_id]</text>
+    <polygon points="368.5,709.2109 358.5,713.2109 368.5,717.2109 364.5,713.2109" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="362.5" y1="713.2109" x2="763.5" y2="713.2109" stroke-width="1" style="stroke:#181818;" />
+    <text x="374.5" y="708.3545" textLength="204" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Сообщение о поступлении товара</text>
+    <polygon points="64.5,739.5625 54.5,743.5625 64.5,747.5625 60.5,743.5625" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="58.5" y1="743.5625" x2="356.5" y2="743.5625" stroke-width="1" style="stroke:#181818;" />
+    <text x="70.5" y="738.7061" textLength="204" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Сообщение о поступлении товара</text>
+    <polygon points="345.5,769.9141 355.5,773.9141 345.5,777.9141 349.5,773.9141" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="53.5" y1="773.9141" x2="351.5" y2="773.9141" stroke-width="1" style="stroke:#181818;" />
+    <text x="60.5" y="769.0576" textLength="280" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Запрос списка товаров на складе из подписки</text>
+    <polygon points="752.5,800.2656 762.5,804.2656 752.5,808.2656 756.5,804.2656" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="357.5" y1="804.2656" x2="758.5" y2="804.2656" stroke-width="1" style="stroke:#181818;" />
+    <text x="364.5" y="799.4092" textLength="287" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">GET {base_url}/users/{user_id}/product_subscribe</text>
+    <polygon points="1739.5,896.0234 1749.5,900.0234 1739.5,904.0234 1743.5,900.0234" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="764.5" y1="900.0234" x2="1745.5" y2="900.0234" stroke-width="1" style="stroke:#181818;" />
+    <text x="771.5" y="829.7607" textLength="322" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">SELECT ps.ProductID, sh.Count, p.Description, p.Price</text>
+    <text x="771.5" y="846.1123" textLength="195" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">FROM ProductSubscription as ps</text>
+    <text x="771.5" y="862.4639" textLength="362" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">LEFT JOIN Storehouse as sh ON ps.ProductID = sh.ProductID</text>
+    <text x="771.5" y="878.8154" textLength="320" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">LEFT JOIN Product as p ON ps.ProductID = .ProductID</text>
+    <text x="771.5" y="895.167" textLength="184" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">WHERE (ps.UserID = {user_id})</text>
+    <polygon points="775.5,926.375 765.5,930.375 775.5,934.375 771.5,930.375" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="769.5" y1="930.375" x2="1750.5" y2="930.375" stroke-width="1" stroke-dasharray="2 2" style="stroke:#181818;" />
+    <text x="781.5" y="925.5186" textLength="218" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">[ProductID, Description, Count, Price]</text>
+    <polygon points="368.5,956.7266 358.5,960.7266 368.5,964.7266 364.5,960.7266" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="362.5" y1="960.7266" x2="763.5" y2="960.7266" stroke-width="1" stroke-dasharray="2 2" style="stroke:#181818;" />
+    <text x="374.5" y="955.8701" textLength="273" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Список, описание, количество и цена товара.</text>
+    <polygon points="64.5,987.0781 54.5,991.0781 64.5,995.0781 60.5,991.0781" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="58.5" y1="991.0781" x2="356.5" y2="991.0781" stroke-width="1" stroke-dasharray="2 2" style="stroke:#181818;" />
+    <text x="70.5" y="986.2217" textLength="273" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Список, описание, количество и цена товара.</text>
+    <polygon points="345.5,1017.43 355.5,1021.43 345.5,1025.43 349.5,1021.43" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="53.5" y1="1021.43" x2="351.5" y2="1021.43" stroke-width="1" style="stroke:#181818;" />
+    <text x="60.5" y="1016.573" textLength="125" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Отметка о прочтении</text>
+    <path d="M326 1034.43 L326 1060.43 L1783 1060.43 L1783 1044.43 L1773 1034.43 L326 1034.43" stroke-width="0.5" style="fill:#FEFFDD;stroke:#181818;" />
+    <path d="M1773 1034.43 L1773 1044.43 L1783 1044.43 L1773 1034.43" stroke-width="0.5" style="fill:#FEFFDD;stroke:#181818;" />
+    <text x="923.5" y="1052.925" textLength="253" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Удаляем подписку пользователя на товар</text>
+    <polygon points="747.5,1084.133 757.5,1088.133 747.5,1092.133 751.5,1088.133" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="357.5" y1="1088.133" x2="753.5" y2="1088.133" stroke-width="1" style="stroke:#181818;" />
+    <text x="364.5" y="1083.276" textLength="383" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">DELETE {base_url}/users/{user_id}/product_subscribe/{product_id}</text>
+    <polygon points="1739.5,1130.836 1749.5,1134.836 1739.5,1138.836 1743.5,1134.836" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="764.5" y1="1134.836" x2="1745.5" y2="1134.836" stroke-width="1" style="stroke:#181818;" />
+    <text x="771.5" y="1113.628" textLength="213" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">DELETE FROM ProductSubscription</text>
+    <text x="771.5" y="1129.979" textLength="328" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">WHERE ProductID = {product_id} and UserID = {user_id}</text>
+  </g>
+</svg>

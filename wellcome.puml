@@ -1,0 +1,27 @@
+@startuml
+hide unlinked
+
+title Получение списка покупок
+actor Customer as C 
+boundary "ЛК\nMarketPlace"	as MP
+control "BACKEND\nMarketPlace"	as CMP
+database "DB\nMySQL" as DB
+participant PayGateway as PG
+queue Kafka as K
+control "BACKEND\nStorehouse"	as CSH
+actor UserSH as USH
+
+
+'C -> MP : Регистрационные данные\n GET {base_url}/users/{user_id}
+'MP --> C : Фрма ЛК
+C -> MP : Запрос списка покупок
+MP -> CMP : GET {base_url}/users/{user_id}/products
+activate CMP
+CMP -> DB : SELECT *\nFROM OrderProduct as op \n LEFT JOIN Order as o ON op.OrderID  = Order.ID\n LEFT JOIN Product as p ON p.ID = op.ProductID\nWHERE (o.UserID = {user_id}) AND (o.State = 'Completed')
+CMP <-- DB : Список купленных товаров
+MP <-- CMP : Список купленных товаров
+deactivate CMP
+MP --> C : Список купленных товаров
+
+@enduml
+

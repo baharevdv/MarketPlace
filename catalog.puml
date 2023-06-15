@@ -1,0 +1,22 @@
+@startuml
+hide unlinked
+title Получение каталога товаров
+actor Customer as C 
+boundary "ЛК\nMarketPlace"	as MP
+control "BACKEND\nMarketPlace"	as CMP
+database "DB\nMySQL" as DB
+participant PayGateway as PG
+queue Kafka as K
+control "BACKEND\nStorehouse"	as CSH
+actor UserSH as USH
+
+ 
+C -> MP : Каталог товаров
+MP -> CMP : GET {base_url}/product
+activate CMP
+CMP -> DB : SELECT *\nFROM Product as p
+CMP <-- DB : Каталог товаров
+MP <-- CMP : Каталог товаров
+deactivate CMP
+C <-- MP : Каталог товаров
+@enduml

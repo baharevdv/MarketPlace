@@ -1,0 +1,80 @@
+@startuml
+hide unlinked
+title Оплата Заказа
+
+actor Customer as C 
+boundary "ЛК\nMarketPlace"	as MP
+control "BACKEND\nMarketPlace"	as CMP
+database "DB\nMySQL" as DB
+participant PayGateway as PG
+queue Kafka as K
+control "BACKEND\nStorehouse"	as CSH
+actor UserSH as USH
+
+	C -> MP : Запрос на оплату заказа
+	MP -> CMP : POST {base_url}/orders/{order_id}/pay_request
+	activate CMP
+	group Проверяем наличие продуктов на складе
+		CMP -> DB : Запрос
+		CMP <-- DB
+		MP <-- CMP : № заказа, ИД товара, количество на складе, статус
+		alt Количество данного товара на складе > 0
+		C <-- MP : № заказа, ИД товара, Количество на складе
+		else Количество данного товара на складе = 0
+		C <-- MP : № заказа, ИД товара, Предложение подписаться
+		end
+	end
+	C -> MP : Подтверждение покупки
+	MP -> CMP : Подтверждение покупки
+
+	note over CMP, DB : Меняем статус Заказа на work
+
+	CMP -> DB : UPDATE Order\n SET State = 'work'\n WHERE OrderID = {order_id}
+
+	MP <-- CMP : № заказа, ИД товара, количество на складе, статус
+	C <-- MP : № заказа, ИД товара, количество на складе, статус
+
+	CMP -> CMP : Резрвируем продукты для пользователя
+	note over CMP, DB : Меняем статус Заказа на reserved
+
+	CMP -> DB : UPDATE Order\n SET State = 'reserved'\n WHERE OrderID = {order_id}
+
+	MP <-- CMP : № заказа, ИД товара, количество на складе, статус
+	C <-- MP : № заказа, ИД товара, количество на складе, статус
+
+	CMP -> DB : INSERT INTO PayRequest (OrderID, State)\nVALUES ({order_id}, 'new')
+	CMP -> PG : Запрос на проведение оплаты (order_id, price)
+	activate PG
+	activate CMP #green
+	C <-- PG : Форма оплаты
+	CMP <-- PG : ID Транзакции, статус
+	CMP -> DB : INSERT INTO PayTransaction (PayTransactionID, PayRequestID, State)\nVALUES ({ID Транзакции},{PayRequestID}, {статус})
+	C -> PG : Оплата заказа
+	PG -> CMP : Изменение состояния оплаты
+	deactivate PG
+	CMP -> DB : UPDATE PayTransaction\nSET State = {new_state}\nWHERE PayTransactionID = {pay_transaction_id}
+	CMP -> DB : UPDATE PayRequest\nSET State = {new_state}\nWHERE PayRequestID = {pay_request_id}
+
+	alt Оплата прошла успешно
+		note over CMP, DB : Меняем статус Заказа на paid
+		CMP -> DB : UPDATE Order\n SET State = 'paid'\n WHERE OrderID = {order_id}
+
+		MP <-- CMP : № заказа, ИД товара, количество на складе, статус
+		C <-- MP : № заказа, ИД товара, количество на складе, статус
+
+		note over CMP, DB : Удаляем из корзины купленные позиции Заказа
+		CMP -> DB : DELETE *\nFROM BasketProduct\nWHERE UserID = {user_id} and\nProductID in (\n    SELECT DISTINCT ProductID\n    FROM OrderProduct\n    WHERE OrderID = {order_id} and count > 0)
+		CMP <-- DB : Текущий состав корзины
+		MP <-- CMP : Текущий состав корзины
+		C <-- MP : Текущий состав корзины
+	else Оплата прошла НЕ успешно 
+		note over CMP, DB : Меняем статус Заказа на 'error'
+		CMP -> DB : UPDATE Order\n SET State = 'error'\n WHERE OrderID = {order_id}
+
+		MP <-- CMP : № заказа, ИД товара, количество на складе, статус
+		deactivate CMP
+		C <-- MP : № заказа, ИД товара, количество на складе, статус
+	end
+	deactivate CMP
+
+@enduml

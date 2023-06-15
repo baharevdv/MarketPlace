@@ -1,0 +1,158 @@
+@startuml
+hide unlinked
+actor Customer as C 
+boundary "ЛК\nMarketPlace"	as MP
+control "BACKEND\nMarketPlace"	as CMP
+database "DB\nMySQL" as DB
+participant PayGateway as PG
+queue Kafka as K
+control "BACKEND\nStorehouse"	as CSH
+actor UserSH as USH
+
+
+'C -> MP : Регистрационные данные\n GET {base_url}/users/{user_id}
+'MP --> C : Фрма ЛК
+group Получение списка покупок
+C -> MP : Запрос списка покупок
+MP -> CMP : GET {base_url}/users/{user_id}/order
+activate CMP
+CMP -> DB : SELECT *\nFROM OrderProduct as op \n LEFT JOIN Order as o ON op.OrderID  = Order.ID\n LEFT JOIN Product as p ON p.ID = op.ProductID\nWHERE (o.UserID = {user_id}) AND (o.State = 'Completed')
+CMP <-- DB : Список купленных товаров
+MP <-- CMP : Список купленных товаров
+deactivate CMP
+MP --> C : Список купленных товаров
+end
+
+newpage
+group Получение каталога товаров
+C -> MP : Каталог товаров
+MP -> CMP : GET {base_url}/product
+activate CMP
+CMP -> DB : SELECT *\nFROM Product as p
+CMP <-- DB : Каталог товаров
+MP <-- CMP : Каталог товаров
+deactivate CMP
+C <-- MP : Каталог товаров
+end
+
+newpage
+group Формирование корзины покупок
+C -> MP : Добавить товары в корзину
+MP -> CMP : POST {base_url}/users/{user_id}/basket_product
+activate CMP
+CMP -> DB : SELECT *\nFROM BasketProduct as bp\n LEFT JOIN Product as p ON p.ID = bp.ProductID\nWHERE bp.UserID = {user_id}
+CMP <-- DB : Текущий состав корзины
+MP <-- CMP : Текущий состав корзины
+deactivate CMP
+C <-- MP : Текущий состав корзины
+end
+
+newpage
+group Создаем Заказ
+C -> MP : Запрос на оформление заказа
+MP -> CMP : POST {base_url}/users/{user_id}/order
+activate CMP
+
+note over CMP, DB : Открываем новый Заказ
+CMP -> DB : INSERT INTO Order (UserID, State)\nVALUES ({user_id}, 'new')
+
+note over CMP, DB : Добавляем продукты в Заказ
+CMP -> DB : SELECT MAX(ID) FROM Order WHERE UserID={user_id}
+CMP <-- DB : № заказа - {order_id}
+
+CMP -> DB : INSERT INTO OrderProduct (OrderID, ProductID, count)\nVALUES ({order_id}, {product_id}, {count})
+
+CMP <-- DB : № заказа, статус = 'new'
+MP <-- CMP : № и статус заказа
+C <-- MP : № и статус заказа
+end 
+
+group Проверяем наличие продуктов на складе
+CMP -> DB : SELECT * \nFROM Storehouse as sh\nWHERE sh.ProductID = {product_id}
+CMP <-- DB : [ProductID, count]
+
+CMP -> DB : UPDATE OrderProduct\nSET count = {count}\nWHERE ProductID = {product_id} and OrderID = {order_id}
+note over CMP, DB : Меняем статус Заказа на checked
+
+CMP -> DB : UPDATE Order\n SET State = 'checked'\n WHERE OrderID = {order_id}
+
+MP <-- CMP : № заказа, ИД товара, количество на складе, статус
+deactivate CMP
+
+alt Количество данного товара на складе > 0
+C <-- MP : № заказа, ИД товара, Количество на складе
+else Количество данного товара на складе = 0
+C <-- MP : № заказа, ИД товара, Предложение подписаться
+end
+
+end
+
+group Оплата Заказа
+C -> MP : Запрос на оплату заказа
+MP -> CMP : POST {base_url}/orders/{order_id}/pay_request
+activate CMP
+group Проверяем наличие продуктов на складе
+	CMP -> DB : Запрос
+	CMP <-- DB
+	MP <-- CMP : № заказа, ИД товара, количество на складе, статус
+	alt Количество данного товара на складе > 0
+	C <-- MP : № заказа, ИД товара, Количество на складе
+	else Количество данного товара на складе = 0
+	C <-- MP : № заказа, ИД товара, Предложение подписаться
+	end
+	C -> MP : Подтверждение покупки
+	MP -> CMP : Подтверждение покупки
+end
+CMP -> CMP : Резрвируем продукты для пользователя
+CMP -> DB : INSERT INTO PayRequest (OrderID, State)\nVALUES ({order_id}, 'new')
+CMP -> PG : Запрос на проведение оплаты (order_id, price)
+activate PG
+activate CMP #green
+C <-- PG : Форма оплаты
+CMP <-- PG : ID Транзакции, статус
+CMP -> DB : INSERT INTO PayTransaction (PayTransactionID, PayRequestID, State)\nVALUES ({ID Транзакции},{PayRequestID}, {статус})
+C -> PG : Оплата заказа
+PG -> CMP : Изменение состояния оплаты
+deactivate PG
+CMP -> DB : UPDATE PayTransaction\nSET State = {new_state}\nWHERE PayTransactionID = {pay_transaction_id}
+CMP -> DB : UPDATE PayRequest\nSET State = {new_state}\nWHERE PayRequestID = {pay_request_id}
+MP <-- CMP : Измененный статус запроса на оплату заказа
+deactivate CMP
+C <-- MP : Результат работы с формой оплаты
+alt Оплата прошла успешно? [Да]
+note over CMP, DB : Удаляем из корзины купленные позиции Заказа
+CMP -> DB : DELETE *\nFROM BasketProduct\nWHERE UserID = {user_id} and\nProductID in (\n    SELECT DISTINCT ProductID\n    FROM OrderProduct\n    WHERE OrderID = {order_id} and count > 0)
+end
+CMP <-- DB : Текущий состав корзины
+MP <-- CMP : Текущий состав корзины
+deactivate CMP
+C <-- MP : Текущий состав корзины
+
+end
+
+
+newpage
+group Оформление подписки
+C -> MP : Оформление подписки по ИД товара
+MP -> CMP : POST {base_url}/users/{user_id}/product_subscribe\n Список ИД продуктов для подписки
+CMP -> DB : INSERT INTO ProductSubscription (OrderID, UserID)\nVALUES ({order_id}, {user_id})
+end
+
+group Оповещение о поступлении товара
+USH -> CSH : Информация о поступлении товара
+CSH -> K : Информация о поступлении товара
+CSH -> DB : Информация о поступлении товара
+CMP <- K : Сообщение о поступлении товара (product_id}
+activate CMP
+note over CMP, DB : Поиск пользователей, подписанных на этот товар
+CMP -> DB : SELECT UserID\nFROM ProductSubscription\nWHERE ProductID = {product_id}
+CMP <-- DB : Список пользователей, подписанных на товар [user_id]
+CMP -> MP : Сообщение о поступлении товара
+deactivate CMP
+MP -> C : Сообщение о поступлении товара
+C -> MP : Отметка о прочтении
+note over MP,DB : Удаляем подписку пользователя на товар
+MP -> CMP : DELETE {base_url}/users/{user_id}/product_subscribe/{product_id}
+CMP -> DB : DELETE FROM ProductSubscription\nWHERE ProductID = {product_id} and UserID = {user_id}
+end
+@enduml 

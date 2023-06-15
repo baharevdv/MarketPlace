@@ -1,0 +1,22 @@
+@startuml
+hide unlinked
+title Отмена заказа
+
+actor Customer as C 
+boundary "ЛК\nMarketPlace"	as MP
+control "BACKEND\nMarketPlace"	as CMP
+database "DB\nMySQL" as DB
+participant PayGateway as PG
+queue Kafka as K
+control "BACKEND\nStorehouse"	as CSH
+actor UserSH as USH
+
+C -> MP : Отменить заказ
+MP -> CMP : DELETE {base_url}/orders/{order_id}
+note over CMP, DB : Меняем статус Заказа на canceled
+CMP -> DB : UPDATE Order\n SET State = 'canceled'\n WHERE OrderID = {order_id}
+CMP -> CMP : Снимаем резервирование
+MP <-- CMP : № заказа, ИД товара, количество на складе, статус
+C <-- MP : № заказа, ИД товара, количество на складе, статус
+
+@enduml

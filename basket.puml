@@ -1,0 +1,23 @@
+@startuml
+hide unlinked
+actor Customer as C 
+boundary "ЛК\nMarketPlace"	as MP
+control "BACKEND\nMarketPlace"	as CMP
+database "DB\nMySQL" as DB
+participant PayGateway as PG
+queue Kafka as K
+control "BACKEND\nStorehouse"	as CSH
+actor UserSH as USH
+
+title Формирование корзины покупок
+C -> MP : Добавить товары в корзину
+MP -> CMP : POST {base_url}/users/{user_id}/basket_product
+activate CMP
+CMP -> DB : INSERT INTO BasketProduct\n(UserID, ProductID,Count)\nVALUES ({user_id}, {product_id, {count})
+CMP <-- DB : Текущий состав корзины
+MP <-- CMP : Текущий состав корзины
+deactivate CMP
+C <-- MP : Текущий состав корзины
+
+
+@enduml

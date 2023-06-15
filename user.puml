@@ -1,0 +1,24 @@
+@startuml
+hide unlinked
+
+title Получение реквизитов пользователя
+actor Customer as C 
+boundary "ЛК\nMarketPlace"	as MP
+control "BACKEND\nMarketPlace"	as CMP
+database "DB\nMySQL" as DB
+participant PayGateway as PG
+queue Kafka as K
+control "BACKEND\nStorehouse"	as CSH
+actor UserSH as USH
+
+
+C -> MP : Запрос реквизитов пользователя
+MP -> CMP : GET {base_url}/users/{user_id}
+activate CMP
+CMP -> DB : SELECT *\nFROM USER\nWHERE (o.UserID = {user_id})
+CMP <-- DB : ФИО и ИД пользователя
+MP <-- CMP : ФИО и ИД пользователя
+deactivate CMP
+MP --> C : ФИО и ИД пользователя
+
+@enduml

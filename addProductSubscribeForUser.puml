@@ -1,0 +1,20 @@
+@startuml
+hide unlinked
+title Оформление подписки
+actor Customer as C 
+boundary "ЛК\nMarketPlace"	as MP
+control "BACKEND\nMarketPlace"	as CMP
+database "DB\nMySQL" as DB
+participant PayGateway as PG
+queue "Товары, поступившие на склад\nKafka" as K
+participant "Storehouse"	as CSH
+actor UserSH as USH
+
+	C -> MP : Оформление подписки по ИД товара
+	MP -> CMP : POST {base_url}/users/{user_id}/product_subscribe\n Список ИД продуктов для подписки
+	CMP -> DB : INSERT INTO ProductSubscription (ProductID, UserID, isRead)\nVALUES ({product_id}, {user_id}, true)
+	CMP <-- DB : Запись добавлена успешно
+	MP <-- CMP : Количество успешно добавленных записей
+	C <-- MP : Количество успешно добавленных записей
+
+@enduml

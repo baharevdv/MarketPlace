@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" width="827px" height="456px" viewBox="0, 0, 827, 456" preserveAspectRatio="none" contentStyleType="text/css" zoomAndPan="magnify" style="background:#FFFFFF;">
+  <defs />
+  <g>
+    <rect x="288.75" y="10" width="245" height="27.6094" id="_title" stroke-width="1" style="fill:none;stroke:none;" />
+    <text x="293.75" y="29.5332" textLength="235" lengthAdjust="spacing" font-family="sans-serif" font-size="14" font-weight="bold" style="fill:black;">Формирование корзины покупок</text>
+    <rect x="524.5" y="187.5313" width="10" height="123.7578" stroke-width="1" style="fill:white;stroke:#181818;" />
+    <line x1="38" y1="124.8281" x2="38" y2="359.6406" stroke-width="0.5" stroke-dasharray="5 5" style="stroke:#181818;" />
+    <line x1="226.5" y1="124.8281" x2="226.5" y2="359.6406" stroke-width="0.5" stroke-dasharray="5 5" style="stroke:#181818;" />
+    <line x1="529.5" y1="124.8281" x2="529.5" y2="359.6406" stroke-width="0.5" stroke-dasharray="5 5" style="stroke:#181818;" />
+    <line x1="792.5" y1="124.8281" x2="792.5" y2="359.6406" stroke-width="0.5" stroke-dasharray="5 5" style="stroke:#181818;" />
+    <text x="5" y="121.752" textLength="61" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Customer</text>
+    <ellipse cx="38.5" cy="55.7188" rx="8" ry="8" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <path d="M38.5 63.7188 L38.5 90.7188 M25.5 71.7188 L51.5 71.7188 M38.5 90.7188 L25.5 105.7188 M38.5 90.7188 L51.5 105.7188" stroke-width="0.5" style="fill:none;stroke:#181818;" />
+    <text x="5" y="373.1738" textLength="61" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Customer</text>
+    <ellipse cx="38.5" cy="384.75" rx="8" ry="8" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <path d="M38.5 392.75 L38.5 419.75 M25.5 400.75 L51.5 400.75 M38.5 419.75 L25.5 434.75 M38.5 419.75 L51.5 434.75" stroke-width="0.5" style="fill:none;stroke:#181818;" />
+    <text x="215" y="104.1426" textLength="17" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">ЛК</text>
+    <text x="184.5" y="121.752" textLength="78" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">MarketPlace</text>
+    <path d="M206 61.6094 L206 85.6094 M206 73.6094 L223 73.6094" stroke-width="0.5" style="fill:none;stroke:#181818;" />
+    <ellipse cx="235" cy="73.6094" rx="12" ry="12" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <text x="215" y="373.1738" textLength="17" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">ЛК</text>
+    <text x="184.5" y="390.7832" textLength="78" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">MarketPlace</text>
+    <path d="M206 397.8594 L206 421.8594 M206 409.8594 L223 409.8594" stroke-width="0.5" style="fill:none;stroke:#181818;" />
+    <ellipse cx="235" cy="409.8594" rx="12" ry="12" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <text x="494" y="104.1426" textLength="65" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">BACKEND</text>
+    <text x="487.5" y="121.752" textLength="78" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">MarketPlace</text>
+    <ellipse cx="529.5" cy="73.6094" rx="12" ry="12" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <polygon points="525.5,61.6094 531.5,56.6094 529.5,61.6094 531.5,66.6094 525.5,61.6094" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <text x="494" y="373.1738" textLength="65" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">BACKEND</text>
+    <text x="487.5" y="390.7832" textLength="78" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">MarketPlace</text>
+    <ellipse cx="529.5" cy="409.8594" rx="12" ry="12" stroke-width="0.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <polygon points="525.5,397.8594 531.5,392.8594 529.5,397.8594 531.5,402.8594 525.5,397.8594" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <text x="780" y="104.1426" textLength="19" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">DB</text>
+    <text x="766.5" y="121.752" textLength="46" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">MySQL</text>
+    <path d="M774.5 53.6094 C774.5 43.6094 792.5 43.6094 792.5 43.6094 C792.5 43.6094 810.5 43.6094 810.5 53.6094 L810.5 79.6094 C810.5 89.6094 792.5 89.6094 792.5 89.6094 C792.5 89.6094 774.5 89.6094 774.5 79.6094 L774.5 53.6094" stroke-width="1.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <path d="M774.5 53.6094 C774.5 63.6094 792.5 63.6094 792.5 63.6094 C792.5 63.6094 810.5 63.6094 810.5 53.6094" stroke-width="1.5" style="fill:none;stroke:#181818;" />
+    <text x="780" y="373.1738" textLength="19" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">DB</text>
+    <text x="766.5" y="390.7832" textLength="46" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">MySQL</text>
+    <path d="M774.5 403.8594 C774.5 393.8594 792.5 393.8594 792.5 393.8594 C792.5 393.8594 810.5 393.8594 810.5 403.8594 L810.5 429.8594 C810.5 439.8594 792.5 439.8594 792.5 439.8594 C792.5 439.8594 774.5 439.8594 774.5 429.8594 L774.5 403.8594" stroke-width="1.5" style="fill:#E2E2F0;stroke:#181818;" />
+    <path d="M774.5 403.8594 C774.5 413.8594 792.5 413.8594 792.5 413.8594 C792.5 413.8594 810.5 413.8594 810.5 403.8594" stroke-width="1.5" style="fill:none;stroke:#181818;" />
+    <rect x="524.5" y="187.5313" width="10" height="123.7578" stroke-width="1" style="fill:white;stroke:#181818;" />
+    <polygon points="214.5,153.1797 224.5,157.1797 214.5,161.1797 218.5,157.1797" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="38.5" y1="157.1797" x2="220.5" y2="157.1797" stroke-width="1" style="stroke:#181818;" />
+    <text x="45.5" y="152.3232" textLength="164" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Добавить товары в корзину</text>
+    <polygon points="512.5,183.5313 522.5,187.5313 512.5,191.5313 516.5,187.5313" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="226.5" y1="187.5313" x2="518.5" y2="187.5313" stroke-width="1" style="stroke:#181818;" />
+    <text x="233.5" y="182.6748" textLength="279" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">POST {base_url}/users/{user_id}/basket_product</text>
+    <polygon points="780.5,246.5859 790.5,250.5859 780.5,254.5859 784.5,250.5859" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="534.5" y1="250.5859" x2="786.5" y2="250.5859" stroke-width="1" style="stroke:#181818;" />
+    <text x="541.5" y="213.0264" textLength="169" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">INSERT INTO BasketProduct</text>
+    <text x="541.5" y="229.3779" textLength="150" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">(UserID, ProductID,Count)</text>
+    <text x="541.5" y="245.7295" textLength="234" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">VALUES ({user_id}, {product_id, {count})</text>
+    <polygon points="545.5,276.9375 535.5,280.9375 545.5,284.9375 541.5,280.9375" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="539.5" y1="280.9375" x2="791.5" y2="280.9375" stroke-width="1" stroke-dasharray="2 2" style="stroke:#181818;" />
+    <text x="551.5" y="276.0811" textLength="150" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Текущий состав корзины</text>
+    <polygon points="237.5,307.2891 227.5,311.2891 237.5,315.2891 233.5,311.2891" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="231.5" y1="311.2891" x2="528.5" y2="311.2891" stroke-width="1" stroke-dasharray="2 2" style="stroke:#181818;" />
+    <text x="243.5" y="306.4326" textLength="150" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Текущий состав корзины</text>
+    <polygon points="49.5,337.6406 39.5,341.6406 49.5,345.6406 45.5,341.6406" stroke-width="1" style="fill:#181818;stroke:#181818;" />
+    <line x1="43.5" y1="341.6406" x2="225.5" y2="341.6406" stroke-width="1" stroke-dasharray="2 2" style="stroke:#181818;" />
+    <text x="55.5" y="336.7842" textLength="150" lengthAdjust="spacing" font-family="sans-serif" font-size="13" style="fill:black;">Текущий состав корзины</text>
+  </g>
+</svg>

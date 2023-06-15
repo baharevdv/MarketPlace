@@ -1,0 +1,85 @@
+@startuml
+entity User {
+    ID <<PK>>
+    ----
+	FIO
+}
+entity Order {
+    ID <<PK>>
+    ----
+	UserID <<FK>>
+	Price
+	State
+}
+
+'entity Session {
+'	UserID
+'}
+
+entity Product {
+    ID <<PK>>
+    ----
+	Description
+    Price
+}
+
+
+entity BasketProduct{
+	UserID <<FK>>
+	ProductID <<FK>>
+	Count
+}
+
+entity OrderProduct
+{
+	OrderID <<FK>>
+	ProductID <<FK>>
+	Count
+}
+
+entity PayRequest{
+    ID <<PK>>
+    ----
+	OrderID <<FK>>
+	State
+}
+
+entity PayTransaction {
+    ID <<PK>>
+    ----
+	PayRequestID <<FK>>
+	State
+}
+
+entity Storehouse{
+	ProductID <<FK>>
+	Count    
+}
+
+entity ProductSubscription {
+	ProductID <<FK>>
+	UserID <<FK>>
+	isRead
+	----
+	* UNIQUE (ProductID, UserID)
+}
+
+'Session }|--|| User
+User }|--|{ Order
+
+BasketProduct }|--|| User
+BasketProduct }|--|| Product
+
+Product }|--|| Order 
+OrderProduct  }|--|| Order 
+OrderProduct }|--|| Product
+
+Order ||--|| PayRequest
+PayRequest ||--|{ PayTransaction
+
+Storehouse }|--|| Product
+
+ProductSubscription }|--|| Product
+ProductSubscription }|--|| User
+
+@enduml

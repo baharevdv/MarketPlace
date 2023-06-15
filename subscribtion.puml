@@ -1,0 +1,55 @@
+@startuml
+hide unlinked
+title Уведомления о получении товара
+actor Customer as C 
+boundary "ЛК\nMarketPlace"	as MP
+control "BACKEND\nMarketPlace"	as CMP
+database "DB\nMySQL" as DB
+participant PayGateway as PG
+queue "Товары, поступившие на склад\nKafka" as K
+participant "Storehouse"	as CSH
+actor UserSH as USH
+
+group Оформление подписки
+	C -> MP : Оформление подписки по ИД товара
+	MP -> CMP : POST {base_url}/users/{user_id}/product_subscribe\n Список ИД продуктов для подписки
+	CMP -> DB : INSERT INTO ProductSubscription (ProductID, UserID)\nVALUES ({product_id}, {user_id})
+	CMP <-- DB : Запись добавлена успешно
+	MP <-- CMP : Количество успешно добавленных записей
+	C <-- MP : Количество успешно добавленных записей
+end
+
+group Ввод информации о поступлении товара
+	USH -> CSH : Информация о поступлении товара
+	CSH -> K : Информация о поступлении товара с указанием ProductID
+	CSH -> DB : Информация о количестве поступившего товара
+end
+
+group Уведомления о получении товара
+	CMP <- K : Сообщение о поступлении товара (product_id}
+	activate CMP
+	database "DB\nMySQL" as DB
+	note over CMP, DB : Поиск пользователей, подписанных на этот товар	
+	CMP -> DB : SELECT UserID\nFROM ProductSubscription\nWHERE ProductID = {product_id}
+	CMP <-- DB : Список пользователей, подписанных на товар [user_id]
+	CMP -> MP : Сообщение о поступлении товара
+	deactivate CMP
+	MP -> C : Сообщение о поступлении товара
+	
+	C -> MP : Запрос списка товаров на складе из подписки 
+	MP -> CMP : GET {base_url}/users/{user_id}/product_subscribe
+	CMP -> DB : SELECT ps.ProductID, sh.Count, p.Description, p.Price\nFROM ProductSubscription as ps\nLEFT JOIN Storehouse as sh ON ps.ProductID = sh.ProductID\nLEFT JOIN Product as p ON ps.ProductID = .ProductID\nWHERE (ps.UserID = {user_id})and(sh.Count > 0)
+	CMP <-- DB : [ProductID, Description, Count, Price]
+	MP <-- CMP : Список, описание, количество и цена товара.
+	C <-- MP : Список, описание, количество и цена товара.
+	
+	C -> MP : Отметка о прочтении
+	note over MP,DB : Удаляем подписку пользователя на товар
+	
+	MP -> CMP : DELETE {base_url}/users/{user_id}/product_subscribe/{product_id}
+	activate CMP
+	CMP -> DB : DELETE FROM ProductSubscription\nWHERE ProductID = {product_id} and UserID = {user_id}
+	deactivate CMP
+end
+
+@enduml 

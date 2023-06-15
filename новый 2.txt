@@ -1,0 +1,18 @@
+@startuml
+actor User
+participant ИМ
+participant BACK
+participant Gateway
+database DB
+
+User -> User : Наполняет корзину товарами
+User -> ИМ : Оплатить
+ИМ -> BACK : Состав и количество товара для заказа
+activate ИМ
+BACK -> BACK : Сформированный заказ 
+BACK -> DB : Сформированный заказ
+BACK -> Gateway : Стоимость для оплаты
+Gateway -> User : Форма для оплаты
+User -> Gateway : 
+deactivate ИМ
+@enduml

@@ -1,0 +1,50 @@
+@startuml
+hide unlinked
+title Создание заказа
+
+actor Customer as C 
+boundary "ЛК\nMarketPlace"	as MP
+control "BACKEND\nMarketPlace"	as CMP
+database "DB\nMySQL" as DB
+participant PayGateway as PG
+queue Kafka as K
+control "BACKEND\nStorehouse"	as CSH
+actor UserSH as USH
+
+	C -> MP : Запрос на оформление заказа
+	MP -> CMP : POST {base_url}/users/{user_id}/order
+	activate CMP
+
+	note over CMP, DB : Открываем новый Заказ
+	CMP -> DB : INSERT INTO Order (UserID, State)\nVALUES ({user_id}, 'new')
+
+	note over CMP, DB : Добавляем продукты в Заказ
+	CMP -> DB : SELECT MAX(ID) FROM Order WHERE UserID={user_id}
+	CMP <-- DB : № заказа - {order_id}
+
+	CMP -> DB : INSERT INTO OrderProduct (OrderID, ProductID, count)\nVALUES ({order_id}, {product_id}, {count})
+
+	CMP <-- DB : № заказа, статус = 'new'
+	MP <-- CMP : № и статус заказа
+	C <-- MP : № и статус заказа
+
+group Проверяем наличие продуктов на складе
+	CMP -> DB : SELECT * \nFROM Storehouse as sh\nWHERE sh.ProductID = {product_id}
+	CMP <-- DB : [ProductID, count]
+
+	CMP -> DB : UPDATE OrderProduct\nSET count = {count}\nWHERE ProductID = {product_id} and OrderID = {order_id}
+	note over CMP, DB : Меняем статус Заказа на checked
+
+	CMP -> DB : UPDATE Order\n SET State = 'checked'\n WHERE OrderID = {order_id}
+
+	MP <-- CMP : № заказа, ИД товара, количество на складе, статус
+	deactivate CMP
+
+	alt Количество данного товара на складе > 0
+		C <-- MP : № заказа, ИД товара, Количество на складе
+	else Количество данного товара на складе = 0
+		C <-- MP : № заказа, ИД товара, Предложение подписаться
+	end
+end
+
+@enduml

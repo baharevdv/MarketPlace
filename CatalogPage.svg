@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" width="457px" height="242px" viewBox="0, 0, 457, 242" preserveAspectRatio="none" contentStyleType="text/css" zoomAndPan="magnify" style="background:#FFFFFF;">
+  <defs />
+  <g>
+    <rect x="168" y="10" width="102" height="27.6094" id="_title" stroke-width="1" style="fill:none;stroke:none;" />
+    <text x="173" y="29.5332" textLength="92" lengthAdjust="spacing" font-family="sans-serif" font-size="14" font-weight="bold" style="fill:black;">Catalog page</text>
+    <text x="6" y="57.0664" textLength="132" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">Иванов Иван Иванович</text>
+    <rect x="368" y="45.6094" width="63" height="18.0938" stroke-width="1" style="fill:#EEEEEE;stroke:black;" />
+    <text x="370" y="60.0664" textLength="39" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">UserID</text>
+    <line x1="420" y1="45.6094" x2="420" y2="63.7031" stroke-width="1" style="stroke:black;" />
+    <polygon points="423,51.6094 429,51.6094 426,58.7031" stroke-width="1" style="fill:black;stroke:black;" />
+    <rect x="368" y="63.7031" width="81" height="44.2813" stroke-width="1" style="fill:#EEEEEE;stroke:black;" />
+    <text x="371" y="76.1602" textLength="48" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">Корзина</text>
+    <text x="371" y="91.2539" textLength="42" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">Заказы</text>
+    <text x="371" y="106.3477" textLength="79" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">Уведомления</text>
+    <line x1="6" y1="71.2031" x2="366" y2="71.2031" stroke-width="1" style="stroke:#AAAAAA;" />
+    <text x="11" y="105.2539" textLength="17" lengthAdjust="spacing" font-family="sans-serif" font-size="12" font-weight="bold" style="fill:black;">ИД</text>
+    <text x="33" y="105.2539" textLength="101" lengthAdjust="spacing" font-family="sans-serif" font-size="12" font-weight="bold" style="fill:black;">Описание товара</text>
+    <text x="164" y="105.2539" textLength="69" lengthAdjust="spacing" font-family="sans-serif" font-size="12" font-weight="bold" style="fill:black;">Количество</text>
+    <text x="238" y="105.2539" textLength="95" lengthAdjust="spacing" font-family="sans-serif" font-size="12" font-weight="bold" style="fill:black;">Стоимость (руб.)</text>
+    <text x="8" y="122.3477" textLength="7" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">1</text>
+    <text x="50" y="122.3477" textLength="109" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">Описание товара 1</text>
+    <rect x="32" y="112.4375" width="10" height="10" stroke-width="1.5" style="fill:none;stroke:black;" />
+    <text x="164" y="122.3477" textLength="7" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">0</text>
+    <line x1="162" y1="124.9844" x2="197" y2="124.9844" stroke-width="1" style="stroke:black;" />
+    <line x1="162" y1="121.9844" x2="162" y2="123.9844" stroke-width="1" style="stroke:black;" />
+    <line x1="197" y1="121.9844" x2="197" y2="123.9844" stroke-width="1" style="stroke:black;" />
+    <text x="8" y="141.4414" textLength="7" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">2</text>
+    <text x="50" y="141.4414" textLength="109" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">Описание товара 2</text>
+    <rect x="32" y="131.5313" width="10" height="10" stroke-width="1.5" style="fill:none;stroke:black;" />
+    <text x="164" y="141.4414" textLength="7" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">0</text>
+    <line x1="162" y1="144.0781" x2="197" y2="144.0781" stroke-width="1" style="stroke:black;" />
+    <line x1="162" y1="141.0781" x2="162" y2="143.0781" stroke-width="1" style="stroke:black;" />
+    <line x1="197" y1="141.0781" x2="197" y2="143.0781" stroke-width="1" style="stroke:black;" />
+    <text x="8" y="160.5352" textLength="7" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">3</text>
+    <text x="50" y="160.5352" textLength="109" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">Описание товара 3</text>
+    <rect x="32" y="150.625" width="10" height="10" stroke-width="1.5" style="fill:none;stroke:black;" />
+    <text x="164" y="160.5352" textLength="7" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">0</text>
+    <line x1="162" y1="163.1719" x2="197" y2="163.1719" stroke-width="1" style="stroke:black;" />
+    <line x1="162" y1="160.1719" x2="162" y2="162.1719" stroke-width="1" style="stroke:black;" />
+    <line x1="197" y1="160.1719" x2="197" y2="162.1719" stroke-width="1" style="stroke:black;" />
+    <line x1="7" y1="91.7969" x2="29" y2="91.7969" stroke-width="1" style="stroke:black;" />
+    <line x1="29" y1="91.7969" x2="160" y2="91.7969" stroke-width="1" style="stroke:black;" />
+    <line x1="160" y1="91.7969" x2="234" y2="91.7969" stroke-width="1" style="stroke:black;" />
+    <line x1="234" y1="91.7969" x2="334" y2="91.7969" stroke-width="1" style="stroke:black;" />
+    <line x1="7" y1="166.1719" x2="29" y2="166.1719" stroke-width="1" style="stroke:black;" />
+    <line x1="29" y1="166.1719" x2="160" y2="166.1719" stroke-width="1" style="stroke:black;" />
+    <line x1="160" y1="166.1719" x2="234" y2="166.1719" stroke-width="1" style="stroke:black;" />
+    <line x1="234" y1="166.1719" x2="334" y2="166.1719" stroke-width="1" style="stroke:black;" />
+    <line x1="7" y1="91.7969" x2="7" y2="108.8906" stroke-width="1" style="stroke:black;" />
+    <line x1="334" y1="147.0781" x2="334" y2="166.1719" stroke-width="1" style="stroke:black;" />
+    <line x1="334" y1="127.9844" x2="334" y2="147.0781" stroke-width="1" style="stroke:black;" />
+    <line x1="334" y1="108.8906" x2="334" y2="127.9844" stroke-width="1" style="stroke:black;" />
+    <line x1="334" y1="91.7969" x2="334" y2="108.8906" stroke-width="1" style="stroke:black;" />
+    <line x1="7" y1="147.0781" x2="7" y2="166.1719" stroke-width="1" style="stroke:black;" />
+    <line x1="7" y1="127.9844" x2="7" y2="147.0781" stroke-width="1" style="stroke:black;" />
+    <line x1="7" y1="108.8906" x2="7" y2="127.9844" stroke-width="1" style="stroke:black;" />
+    <rect x="338" y="91.7969" width="15" height="74.375" stroke-width="1" style="fill:none;stroke:black;" />
+    <line x1="338" y1="103.7969" x2="353" y2="103.7969" stroke-width="1" style="stroke:black;" />
+    <line x1="338" y1="154.1719" x2="353" y2="154.1719" stroke-width="1" style="stroke:black;" />
+    <path d="M345 95.7969 L348 100.7969 L342 100.7969 L345 95.7969" stroke-width="1" style="fill:black;stroke:black;" />
+    <path d="M345 163.1719 L348 158.1719 L342 158.1719 L345 163.1719" stroke-width="1" style="fill:black;stroke:black;" />
+    <line x1="6" y1="83.25" x2="365" y2="83.25" stroke-width="1" style="stroke:black;" />
+    <line x1="6" y1="167.1719" x2="365" y2="167.1719" stroke-width="1" style="stroke:black;" />
+    <line x1="6" y1="83.25" x2="6" y2="167.1719" stroke-width="1" style="stroke:black;" />
+    <line x1="365" y1="83.25" x2="365" y2="167.1719" stroke-width="1" style="stroke:black;" />
+    <rect x="12" y="75.7031" width="97" height="15.0938" stroke-width="1" style="fill:white;stroke:white;" />
+    <text x="12" y="88.1602" textLength="97" lengthAdjust="spacing" font-family="sans-serif" font-size="12" font-weight="bold" style="fill:black;">Список Товаров:</text>
+    <rect x="8.5" y="186.7656" width="140" height="19.0938" rx="5" ry="5" stroke-width="2.5" style="fill:#EEEEEE;stroke:black;" />
+    <text x="26.5" y="201.2227" textLength="104" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">Добавить в козину</text>
+    <rect x="8.5" y="212.8594" width="68" height="19.0938" rx="5" ry="5" stroke-width="2.5" style="fill:#EEEEEE;stroke:black;" />
+    <text x="16.5" y="227.3164" textLength="52" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">Очистить</text>
+    <line x1="5" y1="43.6094" x2="366" y2="43.6094" stroke-width="1" style="stroke:black;" />
+    <line x1="366" y1="43.6094" x2="434" y2="43.6094" stroke-width="1" style="stroke:black;" />
+    <line x1="5" y1="235.4531" x2="366" y2="235.4531" stroke-width="1" style="stroke:black;" />
+    <line x1="366" y1="235.4531" x2="434" y2="235.4531" stroke-width="1" style="stroke:black;" />
+    <line x1="5" y1="43.6094" x2="5" y2="66.7031" stroke-width="1" style="stroke:black;" />
+    <line x1="434" y1="74.7031" x2="434" y2="183.2656" stroke-width="1" style="stroke:black;" />
+    <line x1="434" y1="66.7031" x2="434" y2="74.7031" stroke-width="1" style="stroke:black;" />
+    <line x1="434" y1="43.6094" x2="434" y2="66.7031" stroke-width="1" style="stroke:black;" />
+    <line x1="5" y1="209.3594" x2="5" y2="235.4531" stroke-width="1" style="stroke:black;" />
+    <line x1="5" y1="183.2656" x2="5" y2="209.3594" stroke-width="1" style="stroke:black;" />
+    <line x1="5" y1="74.7031" x2="5" y2="183.2656" stroke-width="1" style="stroke:black;" />
+    <line x1="434" y1="209.3594" x2="434" y2="235.4531" stroke-width="1" style="stroke:black;" />
+    <line x1="5" y1="66.7031" x2="5" y2="74.7031" stroke-width="1" style="stroke:black;" />
+    <line x1="434" y1="183.2656" x2="434" y2="209.3594" stroke-width="1" style="stroke:black;" />
+    <rect x="368" y="63.7031" width="81" height="44.2813" stroke-width="1" style="fill:#EEEEEE;stroke:black;" />
+    <text x="371" y="76.1602" textLength="48" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">Корзина</text>
+    <text x="371" y="91.2539" textLength="42" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">Заказы</text>
+    <text x="371" y="106.3477" textLength="79" lengthAdjust="spacing" font-family="sans-serif" font-size="12" style="fill:black;">Уведомления</text>
+    <rect x="338" y="91.7969" width="15" height="74.375" stroke-width="1" style="fill:none;stroke:black;" />
+    <line x1="338" y1="103.7969" x2="353" y2="103.7969" stroke-width="1" style="stroke:black;" />
+    <line x1="338" y1="154.1719" x2="353" y2="154.1719" stroke-width="1" style="stroke:black;" />
+    <path d="M345 95.7969 L348 100.7969 L342 100.7969 L345 95.7969" stroke-width="1" style="fill:black;stroke:black;" />
+    <path d="M345 163.1719 L348 158.1719 L342 158.1719 L345 163.1719" stroke-width="1" style="fill:black;stroke:black;" />
+  </g>
+</svg>

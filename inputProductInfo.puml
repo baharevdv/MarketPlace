@@ -1,0 +1,18 @@
+@startuml
+hide unlinked
+title Ввод информации о поступлении товара
+actor Customer as C 
+boundary "ЛК\nMarketPlace"	as MP
+control "BACKEND\nMarketPlace"	as CMP
+actor UserSH as USH
+participant "Storehouse"	as CSH
+database "DB\nMySQL" as DB
+participant PayGateway as PG
+queue "Товары, поступившие на склад\nKafka" as K
+
+
+	USH -> CSH : Информация о поступлении товара
+	CSH -> K : Информация о поступлении товара с указанием ProductID
+	CSH -> DB : Информация о количестве поступившего товара
+
+@enduml 
