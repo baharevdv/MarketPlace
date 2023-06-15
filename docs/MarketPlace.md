@@ -3,6 +3,7 @@
 Локальный адрес интернетмагазина: \{base_url} = http://marketplace.local
 ## [Задание](./testDescription.md)
 
+<<<<<<< HEAD
 ## [Cхема работы с уведомлениями о поступлении товара](./subscribtion.md)
 
 ## [ERD-схема таблиц БД](./ERD.md)
@@ -10,6 +11,160 @@
 ![ERD-схема таблиц БД](./images/ERD.svg)
 
 ### [Таблица User (Пользователи)](./ERD.md/#User)
+=======
+Имеется web приложение (интернет магазин) которое состоит из следующих компонентов:
+- Каfka
+- Backend приложение
+- Сервер БД MySQL
+- Frontend приложение (SPA)
+
+Описать процесс покупки товара (от корзины пользователя до момента оплаты и получения товара).
+
+Для совершения покупок пользователи авторизуются.
+
+У них есть личный кабинет где они могут посмотреть список купленных товаров.
+
+Для обмена данных между клиентом и сервером, как мы вчера уточнили, используется REST.
+
+Допустим мы хотим расширить функционал данного магазина таким образом:
+
+- Если пользователь выбирает товар для покупки а товара нет на складе мы должны давать ему возможность для подписки на событие поступления товара на склад.
+- По факту поступления товара на склад пользователь должен получить уведомление в личном кабинете.
+- После того как уведомление будет прочитано его статус должен переходить на прочитано (read).
+- У пользователя должно быть список своих уведомлений.
+
+Требуется системный анализ для реализации данного функционала и по его итогам подготовить FS задачу для разработчика.
+
+PS. Нужно подчеркнуть и описать все необходимые и важные процессы как мы вчера обсуждали во время собеседования.
+
+
+## Cхема работы с уведомлениями о поступлении товара
+
+![Уведомления о получении товара](./subscribtion.svg)
+
+## ERD-схема таблиц БД
+
+![ERD-схема таблиц БД](./ERD.svg)
+
+### User (Пользователи)
+
+<table>
+<thead>
+<tr>
+	<th>Поле</th>
+	<th>Тип</th>
+	<th>Обязательно</th>
+	<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>ID</td>
+	<td>int</td>
+	<td>PK</td>
+	<td>ИД пользователя</td>
+</tr>
+<tr>
+	<td>FIO</td>
+	<td>string</td>
+	<td>+</td>
+	<td>ФИО пользователя</td>
+</tr>
+
+</tbody>
+</table>
+
+### Product (Товары)
+
+<table>
+<thead>
+<tr>
+	<th>Поле</th>
+	<th>Тип</th>
+	<th>Обязательно</th>
+	<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>ID</td>
+	<td>int</td>
+	<td>PK</td>
+	<td>ИД товара</td>
+</tr>
+<tr>
+	<td>Price</td>
+	<td>double</td>
+	<td>+</td>
+	<td>Цена товара за ед. продукции в рублях</td>
+</tr>
+<tr>
+	<td>Description</td>
+	<td>string</td>
+	<td>+</td>
+	<td>Описание товара</td>
+</tr>
+
+</tbody>
+</table>
+
+### ProductSubscription (Подписки пользователей на приход товара на склад)
+
+<table>
+<thead>
+<tr>
+	<th>Поле</th>
+	<th>Тип</th>
+	<th>Обязательно</th>
+	<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>ProductID</td>
+	<td>int</td>
+	<td>+</td>
+	<td>FK на таблицу <b>Product (Товары)</b></td>
+</tr>
+<tr>
+	<td>UserID</td>
+	<td>int</td>
+	<td>+</td>
+	<td>FK на таблицу <b>User (Пользователи)</b></td>
+</tr>
+</tbody>
+</table>
+
+В таблице должно действовать следующее ограничение (CONSTRAINT): `UNIQUE (ProductID, UserID)`.
+
+### Storehouse (Склад товара)
+
+<table>
+<thead>
+<tr>
+	<th>Поле</th>
+	<th>Тип</th>
+	<th>Обязательно</th>
+	<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>ProductID</td>
+	<td>int</td>
+	<td>+</td>
+	<td>FK на таблицу <b>Product (Товары)</b></td>
+</tr>
+<tr>
+	<td>Count</td>
+	<td>int</td>
+	<td>+</td>
+	<td>Количество товара на складе</td>
+</tr>
+</tbody>
+</table>
+
+>>>>>>> 924ebf97ffc39afb3dbfe5031c52201ad6dbe4fa
 ### Ввод информации о поступлении товара
 
 Ввод информации о поступлении товара осуществляется складским работником (на схеме `UserSH`) в собственной складской программе (на схеме `Storehouse`). При этом в топик `Товары, поступившие на склад` добавляется сообщение содержащее ProductID, а в таблице [Storehouse (Склад товара)](#Storehouse (Склад товара)) появляется запись с указанием количества.
@@ -718,6 +873,339 @@
 
 #### 1.5.2 BACKEND методов страницы Messages
 
+<<<<<<< HEAD
+=======
+## ERD-схема таблиц БД
+
+![ERD-схема таблиц БД](./ERD.svg)
+
+### User (Пользователи)
+
+<table>
+<thead>
+<tr>
+	<th>Поле</th>
+	<th>Тип</th>
+	<th>Обязательно</th>
+	<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>ID</td>
+	<td>int</td>
+	<td>PK</td>
+	<td>ИД пользователя</td>
+</tr>
+<tr>
+	<td>FIO</td>
+	<td>string</td>
+	<td>+</td>
+	<td>ФИО пользователя</td>
+</tr>
+
+</tbody>
+</table>
+
+### Order (Заказы)
+
+<table>
+<thead>
+<tr>
+	<th>Поле</th>
+	<th>Тип</th>
+	<th>Обязательно</th>
+	<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>ID</td>
+	<td>int</td>
+	<td>PK</td>
+	<td>ИД заказа</td>
+</tr>
+<tr>
+	<td>UserID</td>
+	<td>int</td>
+	<td>+</td>
+	<td>FK на таблицу <b>User (Пользователи)</b></td>
+</tr>
+<tr>
+	<td>Price</td>
+	<td>double</td>
+	<td>+</td>
+	<td>Суммарная цена товара в заказе в рублях</td>
+</tr>
+<tr>
+	<td>State</td>
+	<td>string</td>
+	<td>+</td>
+	<td>Состояние заказа. Может принимать значения:
+		<ul>
+			<li> 'new' - Новый </li>
+			<li> 'checked' - Проверено </li>
+			<li> 'work' - В работе </li>
+			<li> 'reserved' - Товар зарезервирован </li>
+			<li> 'error' - Ошибка оплаты </li>
+			<li> 'paid' - Оплачено </li>
+			<li> 'canceled' - Отменено </li>
+		</ul>
+	</td>
+</tr>
+</tbody>
+</table>
+
+### Product (Товары)
+
+<table>
+<thead>
+<tr>
+	<th>Поле</th>
+	<th>Тип</th>
+	<th>Обязательно</th>
+	<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>ID</td>
+	<td>int</td>
+	<td>PK</td>
+	<td>ИД товара</td>
+</tr>
+<tr>
+	<td>Price</td>
+	<td>double</td>
+	<td>+</td>
+	<td>Цена товара за ед. продукции в рублях</td>
+</tr>
+<tr>
+	<td>Description</td>
+	<td>string</td>
+	<td>+</td>
+	<td>Описание товара</td>
+</tr>
+
+</tbody>
+</table>
+
+### BasketProduct (Товары в корзине)
+
+<table>
+<thead>
+<tr>
+	<th>Поле</th>
+	<th>Тип</th>
+	<th>Обязательно</th>
+	<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>UserID</td>
+	<td>int</td>
+	<td>+</td>
+	<td>FK на таблицу <b>User (Пользователи)</b></td>
+</tr>
+<tr>
+	<td>ProductID</td>
+	<td>int</td>
+	<td>+</td>
+	<td>FK на таблицу <b>Product (Товары)</b></td>
+</tr>
+<tr>
+	<td>Count</td>
+	<td>int</td>
+	<td>+</td>
+	<td>Количество товара в корзине</td>
+</tr>
+</tbody>
+</table>
+
+### OrderProduct (Товары в заказе)
+
+<table>
+<thead>
+<tr>
+	<th>Поле</th>
+	<th>Тип</th>
+	<th>Обязательно</th>
+	<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>OrderID</td>
+	<td>int</td>
+	<td>+</td>
+	<td>FK на таблицу <b>Order (Заказы)</b></td>
+</tr>
+<tr>
+	<td>ProductID</td>
+	<td>int</td>
+	<td>+</td>
+	<td>FK на таблицу <b>Product (Товары)</b></td>
+</tr>
+<tr>
+	<td>Count</td>
+	<td>int</td>
+	<td>+</td>
+	<td>Количество товара в корзине</td>
+</tr>
+</tbody>
+</table>
+
+### PayRequest (Запросы на оплату)
+
+<table>
+<thead>
+<tr>
+	<th>Поле</th>
+	<th>Тип</th>
+	<th>Обязательно</th>
+	<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>ID</td>
+	<td>int</td>
+	<td>PK</td>
+	<td>ИД зароса на оплату</td>
+</tr>
+<tr>
+	<td>OrderID</td>
+	<td>int</td>
+	<td>+</td>
+	<td>FK на таблицу <b>Order (Заказы)</b></td>
+</tr>
+<tr>
+	<td>State</td>
+	<td>string</td>
+	<td>+</td>
+	<td>Состояние запроса на оплату. Может принимать значения:
+		<ul>
+			<li> 'new' - Новый </li>
+			<li> 'checked' - Проверено </li>
+			<li> 'work' - В работе </li>
+			<li> 'reserved' - Товар зарезервирован </li>
+			<li> 'error' - Ошибка оплаты </li>
+			<li> 'paid' - Оплачено </li>
+			<li> 'canceled' - Отменено </li>
+		</ul>
+	</td>
+</tr>
+</tbody>
+</table>
+
+
+### PayTransaction (Транзакции оплат)
+
+<table>
+<thead>
+<tr>
+	<th>Поле</th>
+	<th>Тип</th>
+	<th>Обязательно</th>
+	<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>ID</td>
+	<td>int</td>
+	<td>PK</td>
+	<td>ИД Транзакции</td>
+</tr>
+<tr>
+	<td>T_UUID</td>
+	<td>uuid</td>
+	<td>-</td>
+	<td>UUID Транзакции, получаемый с платежного шлюза</td>
+</tr>
+<tr>
+	<td>PayRequestID</td>
+	<td>int</td>
+	<td>+</td>
+	<td>FK на таблицу <b>PayRequest (Запросы на оплату)</b></td>
+</tr>
+<tr>
+	<td>State</td>
+	<td>string</td>
+	<td>+</td>
+	<td>Состояние запроса на оплату. Может принимать значения:
+		<ul>
+			<li> 'new' - Новый </li>
+			<li> 'checked' - Проверено </li>
+			<li> 'work' - В работе </li>
+			<li> 'reserved' - Товар зарезервирован </li>
+			<li> 'error' - Ошибка оплаты </li>
+			<li> 'paid' - Оплачено </li>
+			<li> 'canceled' - Отменено </li>
+		</ul>
+	</td>
+</tr>
+</tbody>
+</table>
+
+
+### Storehouse (Склад товара)
+
+<table>
+<thead>
+<tr>
+	<th>Поле</th>
+	<th>Тип</th>
+	<th>Обязательно</th>
+	<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>ProductID</td>
+	<td>int</td>
+	<td>+</td>
+	<td>FK на таблицу <b>Product (Товары)</b></td>
+</tr>
+<tr>
+	<td>Count</td>
+	<td>int</td>
+	<td>+</td>
+	<td>Количество товара на складе</td>
+</tr>
+</tbody>
+</table>
+
+### ProductSubscription (Подписки пользователей на приход товара на склад)
+
+<table>
+<thead>
+<tr>
+	<th>Поле</th>
+	<th>Тип</th>
+	<th>Обязательно</th>
+	<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>ProductID</td>
+	<td>int</td>
+	<td>+</td>
+	<td>FK на таблицу <b>Product (Товары)</b></td>
+</tr>
+<tr>
+	<td>UserID</td>
+	<td>int</td>
+	<td>+</td>
+	<td>FK на таблицу <b>User (Пользователи)</b></td>
+</tr>
+</tbody>
+</table>
+
+В таблице должно действовать следующее ограничение (CONSTRAINT): `UNIQUE (ProductID, UserID)`.
+>>>>>>> 924ebf97ffc39afb3dbfe5031c52201ad6dbe4fa
 
 ## 3 REST API
 
