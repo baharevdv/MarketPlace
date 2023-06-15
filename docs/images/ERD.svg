@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" width="675px" height="792px" viewBox="0, 0, 675, 792" preserveAspectRatio="none" contentStyleType="text/css" zoomAndPan="magnify" style="background:#FFFFFF;">
+  <defs />
+  <g>
+    <g id="elem_User">
+      <rect x="235.5" y="194" width="63" height="83.2188" rx="2.5" ry="2.5" id="User" stroke-width="0.5" codeLine="1" style="fill:#F1F1F1;stroke:#181818;" />
+      <ellipse cx="251.4" cy="210" rx="11" ry="11" stroke-width="1" style="fill:#ADD1B2;stroke:#181818;" />
+      <path d="M250.2594 210.7969 L250.2594 213.2969 L254.5875 213.2969 L254.5875 212.375 Q254.5875 211.7656 254.8297 211.5 Q255.0719 211.2344 255.4469 211.2344 Q255.8219 211.2344 256.0563 211.5 Q256.2906 211.7656 256.2906 212.375 L256.2906 215 L248.2906 215 Q247.6656 215 247.4078 214.7656 Q247.15 214.5313 247.15 214.1406 Q247.15 213.7656 247.4156 213.5313 Q247.6813 213.2969 248.2906 213.2969 L248.5563 213.2969 L248.5563 206.6406 L248.2906 206.6406 Q247.6656 206.6406 247.4078 206.4063 Q247.15 206.1719 247.15 205.7813 Q247.15 205.4063 247.4078 205.1719 Q247.6656 204.9375 248.2906 204.9375 L255.9156 204.9375 L255.9156 207.5313 Q255.9156 208.1406 255.6891 208.3984 Q255.4625 208.6563 255.0719 208.6563 Q254.6969 208.6563 254.4625 208.3984 Q254.2281 208.1406 254.2281 207.5313 L254.2281 206.6406 L250.2594 206.6406 L250.2594 209.0938 L251.7438 209.0938 Q251.7438 208.4375 251.8688 208.25 Q252.1344 207.8438 252.6031 207.8438 Q252.9781 207.8438 253.2125 208.1016 Q253.4469 208.3594 253.4469 208.9688 L253.4469 210.9375 Q253.4469 211.4844 253.3219 211.6719 Q253.0563 212.0625 252.6031 212.0625 Q252.1344 212.0625 251.8688 211.6563 Q251.7438 211.4688 251.7438 210.7969 L250.2594 210.7969 Z" style="fill:black;" />
+      <text x="265.6" y="215.7285" textLength="29" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">User</text>
+      <line x1="236.5" y1="226" x2="297.5" y2="226" stroke-width="0.5" style="stroke:#181818;" />
+      <text x="241.5" y="244.5332" textLength="51" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">ID «PK»</text>
+      <line x1="236.5" y1="251.6094" x2="297.5" y2="251.6094" stroke-width="1" style="stroke:#181818;" />
+      <text x="241.5" y="270.1426" textLength="23" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">FIO</text>
+    </g>
+    <g id="elem_Order">
+      <rect x="371" y="346" width="92" height="118.4375" rx="2.5" ry="2.5" id="Order" stroke-width="0.5" codeLine="6" style="fill:#F1F1F1;stroke:#181818;" />
+      <ellipse cx="396.35" cy="362" rx="11" ry="11" stroke-width="1" style="fill:#ADD1B2;stroke:#181818;" />
+      <path d="M395.2094 362.7969 L395.2094 365.2969 L399.5375 365.2969 L399.5375 364.375 Q399.5375 363.7656 399.7797 363.5 Q400.0219 363.2344 400.3969 363.2344 Q400.7719 363.2344 401.0063 363.5 Q401.2406 363.7656 401.2406 364.375 L401.2406 367 L393.2406 367 Q392.6156 367 392.3578 366.7656 Q392.1 366.5313 392.1 366.1406 Q392.1 365.7656 392.3656 365.5313 Q392.6313 365.2969 393.2406 365.2969 L393.5063 365.2969 L393.5063 358.6406 L393.2406 358.6406 Q392.6156 358.6406 392.3578 358.4063 Q392.1 358.1719 392.1 357.7813 Q392.1 357.4063 392.3578 357.1719 Q392.6156 356.9375 393.2406 356.9375 L400.8656 356.9375 L400.8656 359.5313 Q400.8656 360.1406 400.6391 360.3984 Q400.4125 360.6563 400.0219 360.6563 Q399.6469 360.6563 399.4125 360.3984 Q399.1781 360.1406 399.1781 359.5313 L399.1781 358.6406 L395.2094 358.6406 L395.2094 361.0938 L396.6938 361.0938 Q396.6938 360.4375 396.8188 360.25 Q397.0844 359.8438 397.5531 359.8438 Q397.9281 359.8438 398.1625 360.1016 Q398.3969 360.3594 398.3969 360.9688 L398.3969 362.9375 Q398.3969 363.4844 398.2719 363.6719 Q398.0063 364.0625 397.5531 364.0625 Q397.0844 364.0625 396.8188 363.6563 Q396.6938 363.4688 396.6938 362.7969 L395.2094 362.7969 Z" style="fill:black;" />
+      <text x="412.65" y="367.7285" textLength="37" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Order</text>
+      <line x1="372" y1="378" x2="462" y2="378" stroke-width="0.5" style="stroke:#181818;" />
+      <text x="377" y="396.5332" textLength="51" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">ID «PK»</text>
+      <line x1="372" y1="403.6094" x2="462" y2="403.6094" stroke-width="1" style="stroke:#181818;" />
+      <text x="377" y="422.1426" textLength="80" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">UserID «FK»</text>
+      <text x="377" y="439.752" textLength="32" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Price</text>
+      <text x="377" y="457.3613" textLength="33" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">State</text>
+    </g>
+    <g id="elem_Product">
+      <rect x="375.5" y="185" width="83" height="100.8281" rx="2.5" ry="2.5" id="Product" stroke-width="0.5" codeLine="18" style="fill:#F1F1F1;stroke:#181818;" />
+      <ellipse cx="391.4" cy="201" rx="11" ry="11" stroke-width="1" style="fill:#ADD1B2;stroke:#181818;" />
+      <path d="M390.2594 201.7969 L390.2594 204.2969 L394.5875 204.2969 L394.5875 203.375 Q394.5875 202.7656 394.8297 202.5 Q395.0719 202.2344 395.4469 202.2344 Q395.8219 202.2344 396.0563 202.5 Q396.2906 202.7656 396.2906 203.375 L396.2906 206 L388.2906 206 Q387.6656 206 387.4078 205.7656 Q387.15 205.5313 387.15 205.1406 Q387.15 204.7656 387.4156 204.5313 Q387.6813 204.2969 388.2906 204.2969 L388.5563 204.2969 L388.5563 197.6406 L388.2906 197.6406 Q387.6656 197.6406 387.4078 197.4063 Q387.15 197.1719 387.15 196.7813 Q387.15 196.4063 387.4078 196.1719 Q387.6656 195.9375 388.2906 195.9375 L395.9156 195.9375 L395.9156 198.5313 Q395.9156 199.1406 395.6891 199.3984 Q395.4625 199.6563 395.0719 199.6563 Q394.6969 199.6563 394.4625 199.3984 Q394.2281 199.1406 394.2281 198.5313 L394.2281 197.6406 L390.2594 197.6406 L390.2594 200.0938 L391.7438 200.0938 Q391.7438 199.4375 391.8688 199.25 Q392.1344 198.8438 392.6031 198.8438 Q392.9781 198.8438 393.2125 199.1016 Q393.4469 199.3594 393.4469 199.9688 L393.4469 201.9375 Q393.4469 202.4844 393.3219 202.6719 Q393.0563 203.0625 392.6031 203.0625 Q392.1344 203.0625 391.8688 202.6563 Q391.7438 202.4688 391.7438 201.7969 L390.2594 201.7969 Z" style="fill:black;" />
+      <text x="405.6" y="206.7285" textLength="49" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Product</text>
+      <line x1="376.5" y1="217" x2="457.5" y2="217" stroke-width="0.5" style="stroke:#181818;" />
+      <text x="381.5" y="235.5332" textLength="51" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">ID «PK»</text>
+      <line x1="376.5" y1="242.6094" x2="457.5" y2="242.6094" stroke-width="1" style="stroke:#181818;" />
+      <text x="381.5" y="261.1426" textLength="71" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Description</text>
+      <text x="381.5" y="278.752" textLength="32" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Price</text>
+    </g>
+    <g id="elem_BasketProduct">
+      <rect x="7" y="15.5" width="124" height="100.8281" rx="2.5" ry="2.5" id="BasketProduct" stroke-width="0.5" codeLine="26" style="fill:#F1F1F1;stroke:#181818;" />
+      <ellipse cx="22" cy="31.5" rx="11" ry="11" stroke-width="1" style="fill:#ADD1B2;stroke:#181818;" />
+      <path d="M20.8594 32.2969 L20.8594 34.7969 L25.1875 34.7969 L25.1875 33.875 Q25.1875 33.2656 25.4297 33 Q25.6719 32.7344 26.0469 32.7344 Q26.4219 32.7344 26.6563 33 Q26.8906 33.2656 26.8906 33.875 L26.8906 36.5 L18.8906 36.5 Q18.2656 36.5 18.0078 36.2656 Q17.75 36.0313 17.75 35.6406 Q17.75 35.2656 18.0156 35.0313 Q18.2813 34.7969 18.8906 34.7969 L19.1563 34.7969 L19.1563 28.1406 L18.8906 28.1406 Q18.2656 28.1406 18.0078 27.9063 Q17.75 27.6719 17.75 27.2813 Q17.75 26.9063 18.0078 26.6719 Q18.2656 26.4375 18.8906 26.4375 L26.5156 26.4375 L26.5156 29.0313 Q26.5156 29.6406 26.2891 29.8984 Q26.0625 30.1563 25.6719 30.1563 Q25.2969 30.1563 25.0625 29.8984 Q24.8281 29.6406 24.8281 29.0313 L24.8281 28.1406 L20.8594 28.1406 L20.8594 30.5938 L22.3438 30.5938 Q22.3438 29.9375 22.4688 29.75 Q22.7344 29.3438 23.2031 29.3438 Q23.5781 29.3438 23.8125 29.6016 Q24.0469 29.8594 24.0469 30.4688 L24.0469 32.4375 Q24.0469 32.9844 23.9219 33.1719 Q23.6563 33.5625 23.2031 33.5625 Q22.7344 33.5625 22.4688 33.1563 Q22.3438 32.9688 22.3438 32.2969 L20.8594 32.2969 Z" style="fill:black;" />
+      <text x="36" y="37.2285" textLength="92" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">BasketProduct</text>
+      <line x1="8" y1="47.5" x2="130" y2="47.5" stroke-width="0.5" style="stroke:#181818;" />
+      <text x="13" y="66.0332" textLength="80" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">UserID «FK»</text>
+      <text x="13" y="83.6426" textLength="100" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">ProductID «FK»</text>
+      <text x="13" y="101.252" textLength="38" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Count</text>
+      <line x1="8" y1="108.3281" x2="130" y2="108.3281" stroke-width="0.5" style="stroke:#181818;" />
+    </g>
+    <g id="elem_OrderProduct">
+      <rect x="550" y="15.5" width="118" height="100.8281" rx="2.5" ry="2.5" id="OrderProduct" stroke-width="0.5" codeLine="32" style="fill:#F1F1F1;stroke:#181818;" />
+      <ellipse cx="565" cy="31.5" rx="11" ry="11" stroke-width="1" style="fill:#ADD1B2;stroke:#181818;" />
+      <path d="M563.8594 32.2969 L563.8594 34.7969 L568.1875 34.7969 L568.1875 33.875 Q568.1875 33.2656 568.4297 33 Q568.6719 32.7344 569.0469 32.7344 Q569.4219 32.7344 569.6563 33 Q569.8906 33.2656 569.8906 33.875 L569.8906 36.5 L561.8906 36.5 Q561.2656 36.5 561.0078 36.2656 Q560.75 36.0313 560.75 35.6406 Q560.75 35.2656 561.0156 35.0313 Q561.2813 34.7969 561.8906 34.7969 L562.1563 34.7969 L562.1563 28.1406 L561.8906 28.1406 Q561.2656 28.1406 561.0078 27.9063 Q560.75 27.6719 560.75 27.2813 Q560.75 26.9063 561.0078 26.6719 Q561.2656 26.4375 561.8906 26.4375 L569.5156 26.4375 L569.5156 29.0313 Q569.5156 29.6406 569.2891 29.8984 Q569.0625 30.1563 568.6719 30.1563 Q568.2969 30.1563 568.0625 29.8984 Q567.8281 29.6406 567.8281 29.0313 L567.8281 28.1406 L563.8594 28.1406 L563.8594 30.5938 L565.3438 30.5938 Q565.3438 29.9375 565.4688 29.75 Q565.7344 29.3438 566.2031 29.3438 Q566.5781 29.3438 566.8125 29.6016 Q567.0469 29.8594 567.0469 30.4688 L567.0469 32.4375 Q567.0469 32.9844 566.9219 33.1719 Q566.6563 33.5625 566.2031 33.5625 Q565.7344 33.5625 565.4688 33.1563 Q565.3438 32.9688 565.3438 32.2969 L563.8594 32.2969 Z" style="fill:black;" />
+      <text x="579" y="37.2285" textLength="86" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">OrderProduct</text>
+      <line x1="551" y1="47.5" x2="667" y2="47.5" stroke-width="0.5" style="stroke:#181818;" />
+      <text x="556" y="66.0332" textLength="88" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">OrderID «FK»</text>
+      <text x="556" y="83.6426" textLength="100" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">ProductID «FK»</text>
+      <text x="556" y="101.252" textLength="38" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Count</text>
+      <line x1="551" y1="108.3281" x2="667" y2="108.3281" stroke-width="0.5" style="stroke:#181818;" />
+    </g>
+    <g id="elem_PayRequest">
+      <rect x="362.5" y="524" width="109" height="100.8281" rx="2.5" ry="2.5" id="PayRequest" stroke-width="0.5" codeLine="39" style="fill:#F1F1F1;stroke:#181818;" />
+      <ellipse cx="377.5" cy="540" rx="11" ry="11" stroke-width="1" style="fill:#ADD1B2;stroke:#181818;" />
+      <path d="M376.3594 540.7969 L376.3594 543.2969 L380.6875 543.2969 L380.6875 542.375 Q380.6875 541.7656 380.9297 541.5 Q381.1719 541.2344 381.5469 541.2344 Q381.9219 541.2344 382.1563 541.5 Q382.3906 541.7656 382.3906 542.375 L382.3906 545 L374.3906 545 Q373.7656 545 373.5078 544.7656 Q373.25 544.5313 373.25 544.1406 Q373.25 543.7656 373.5156 543.5313 Q373.7813 543.2969 374.3906 543.2969 L374.6563 543.2969 L374.6563 536.6406 L374.3906 536.6406 Q373.7656 536.6406 373.5078 536.4063 Q373.25 536.1719 373.25 535.7813 Q373.25 535.4063 373.5078 535.1719 Q373.7656 534.9375 374.3906 534.9375 L382.0156 534.9375 L382.0156 537.5313 Q382.0156 538.1406 381.7891 538.3984 Q381.5625 538.6563 381.1719 538.6563 Q380.7969 538.6563 380.5625 538.3984 Q380.3281 538.1406 380.3281 537.5313 L380.3281 536.6406 L376.3594 536.6406 L376.3594 539.0938 L377.8438 539.0938 Q377.8438 538.4375 377.9688 538.25 Q378.2344 537.8438 378.7031 537.8438 Q379.0781 537.8438 379.3125 538.1016 Q379.5469 538.3594 379.5469 538.9688 L379.5469 540.9375 Q379.5469 541.4844 379.4219 541.6719 Q379.1563 542.0625 378.7031 542.0625 Q378.2344 542.0625 377.9688 541.6563 Q377.8438 541.4688 377.8438 540.7969 L376.3594 540.7969 Z" style="fill:black;" />
+      <text x="391.5" y="545.7285" textLength="77" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">PayRequest</text>
+      <line x1="363.5" y1="556" x2="470.5" y2="556" stroke-width="0.5" style="stroke:#181818;" />
+      <text x="368.5" y="574.5332" textLength="51" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">ID «PK»</text>
+      <line x1="363.5" y1="581.6094" x2="470.5" y2="581.6094" stroke-width="1" style="stroke:#181818;" />
+      <text x="368.5" y="600.1426" textLength="88" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">OrderID «FK»</text>
+      <text x="368.5" y="617.752" textLength="33" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">State</text>
+    </g>
+    <g id="elem_PayTransaction">
+      <rect x="347" y="685" width="140" height="100.8281" rx="2.5" ry="2.5" id="PayTransaction" stroke-width="0.5" codeLine="46" style="fill:#F1F1F1;stroke:#181818;" />
+      <ellipse cx="366.05" cy="701" rx="11" ry="11" stroke-width="1" style="fill:#ADD1B2;stroke:#181818;" />
+      <path d="M364.9094 701.7969 L364.9094 704.2969 L369.2375 704.2969 L369.2375 703.375 Q369.2375 702.7656 369.4797 702.5 Q369.7219 702.2344 370.0969 702.2344 Q370.4719 702.2344 370.7063 702.5 Q370.9406 702.7656 370.9406 703.375 L370.9406 706 L362.9406 706 Q362.3156 706 362.0578 705.7656 Q361.8 705.5313 361.8 705.1406 Q361.8 704.7656 362.0656 704.5313 Q362.3313 704.2969 362.9406 704.2969 L363.2063 704.2969 L363.2063 697.6406 L362.9406 697.6406 Q362.3156 697.6406 362.0578 697.4063 Q361.8 697.1719 361.8 696.7813 Q361.8 696.4063 362.0578 696.1719 Q362.3156 695.9375 362.9406 695.9375 L370.5656 695.9375 L370.5656 698.5313 Q370.5656 699.1406 370.3391 699.3984 Q370.1125 699.6563 369.7219 699.6563 Q369.3469 699.6563 369.1125 699.3984 Q368.8781 699.1406 368.8781 698.5313 L368.8781 697.6406 L364.9094 697.6406 L364.9094 700.0938 L366.3938 700.0938 Q366.3938 699.4375 366.5188 699.25 Q366.7844 698.8438 367.2531 698.8438 Q367.6281 698.8438 367.8625 699.1016 Q368.0969 699.3594 368.0969 699.9688 L368.0969 701.9375 Q368.0969 702.4844 367.9719 702.6719 Q367.7063 703.0625 367.2531 703.0625 Q366.7844 703.0625 366.5188 702.6563 Q366.3938 702.4688 366.3938 701.7969 L364.9094 701.7969 Z" style="fill:black;" />
+      <text x="380.95" y="706.7285" textLength="99" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">PayTransaction</text>
+      <line x1="348" y1="717" x2="486" y2="717" stroke-width="0.5" style="stroke:#181818;" />
+      <text x="353" y="735.5332" textLength="51" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">ID «PK»</text>
+      <line x1="348" y1="742.6094" x2="486" y2="742.6094" stroke-width="1" style="stroke:#181818;" />
+      <text x="353" y="761.1426" textLength="128" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">PayRequestID «FK»</text>
+      <text x="353" y="778.752" textLength="33" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">State</text>
+    </g>
+    <g id="elem_Storehouse">
+      <rect x="403" y="24.5" width="112" height="83.2188" rx="2.5" ry="2.5" id="Storehouse" stroke-width="0.5" codeLine="53" style="fill:#F1F1F1;stroke:#181818;" />
+      <ellipse cx="421.15" cy="40.5" rx="11" ry="11" stroke-width="1" style="fill:#ADD1B2;stroke:#181818;" />
+      <path d="M420.0094 41.2969 L420.0094 43.7969 L424.3375 43.7969 L424.3375 42.875 Q424.3375 42.2656 424.5797 42 Q424.8219 41.7344 425.1969 41.7344 Q425.5719 41.7344 425.8063 42 Q426.0406 42.2656 426.0406 42.875 L426.0406 45.5 L418.0406 45.5 Q417.4156 45.5 417.1578 45.2656 Q416.9 45.0313 416.9 44.6406 Q416.9 44.2656 417.1656 44.0313 Q417.4313 43.7969 418.0406 43.7969 L418.3063 43.7969 L418.3063 37.1406 L418.0406 37.1406 Q417.4156 37.1406 417.1578 36.9063 Q416.9 36.6719 416.9 36.2813 Q416.9 35.9063 417.1578 35.6719 Q417.4156 35.4375 418.0406 35.4375 L425.6656 35.4375 L425.6656 38.0313 Q425.6656 38.6406 425.4391 38.8984 Q425.2125 39.1563 424.8219 39.1563 Q424.4469 39.1563 424.2125 38.8984 Q423.9781 38.6406 423.9781 38.0313 L423.9781 37.1406 L420.0094 37.1406 L420.0094 39.5938 L421.4938 39.5938 Q421.4938 38.9375 421.6188 38.75 Q421.8844 38.3438 422.3531 38.3438 Q422.7281 38.3438 422.9625 38.6016 Q423.1969 38.8594 423.1969 39.4688 L423.1969 41.4375 Q423.1969 41.9844 423.0719 42.1719 Q422.8063 42.5625 422.3531 42.5625 Q421.8844 42.5625 421.6188 42.1563 Q421.4938 41.9688 421.4938 41.2969 L420.0094 41.2969 Z" style="fill:black;" />
+      <text x="435.85" y="46.2285" textLength="73" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Storehouse</text>
+      <line x1="404" y1="56.5" x2="514" y2="56.5" stroke-width="0.5" style="stroke:#181818;" />
+      <text x="409" y="75.0332" textLength="100" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">ProductID «FK»</text>
+      <text x="409" y="92.6426" textLength="38" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">Count</text>
+      <line x1="404" y1="99.7188" x2="514" y2="99.7188" stroke-width="0.5" style="stroke:#181818;" />
+    </g>
+    <g id="elem_ProductSubscription">
+      <rect x="166" y="7" width="202" height="118.4375" rx="2.5" ry="2.5" id="ProductSubscription" stroke-width="0.5" codeLine="58" style="fill:#F1F1F1;stroke:#181818;" />
+      <ellipse cx="200.35" cy="23" rx="11" ry="11" stroke-width="1" style="fill:#ADD1B2;stroke:#181818;" />
+      <path d="M199.2094 23.7969 L199.2094 26.2969 L203.5375 26.2969 L203.5375 25.375 Q203.5375 24.7656 203.7797 24.5 Q204.0219 24.2344 204.3969 24.2344 Q204.7719 24.2344 205.0063 24.5 Q205.2406 24.7656 205.2406 25.375 L205.2406 28 L197.2406 28 Q196.6156 28 196.3578 27.7656 Q196.1 27.5313 196.1 27.1406 Q196.1 26.7656 196.3656 26.5313 Q196.6313 26.2969 197.2406 26.2969 L197.5063 26.2969 L197.5063 19.6406 L197.2406 19.6406 Q196.6156 19.6406 196.3578 19.4063 Q196.1 19.1719 196.1 18.7813 Q196.1 18.4063 196.3578 18.1719 Q196.6156 17.9375 197.2406 17.9375 L204.8656 17.9375 L204.8656 20.5313 Q204.8656 21.1406 204.6391 21.3984 Q204.4125 21.6563 204.0219 21.6563 Q203.6469 21.6563 203.4125 21.3984 Q203.1781 21.1406 203.1781 20.5313 L203.1781 19.6406 L199.2094 19.6406 L199.2094 22.0938 L200.6938 22.0938 Q200.6938 21.4375 200.8188 21.25 Q201.0844 20.8438 201.5531 20.8438 Q201.9281 20.8438 202.1625 21.1016 Q202.3969 21.3594 202.3969 21.9688 L202.3969 23.9375 Q202.3969 24.4844 202.2719 24.6719 Q202.0063 25.0625 201.5531 25.0625 Q201.0844 25.0625 200.8188 24.6563 Q200.6938 24.4688 200.6938 23.7969 L199.2094 23.7969 Z" style="fill:black;" />
+      <text x="218.65" y="28.7285" textLength="127" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">ProductSubscription</text>
+      <line x1="167" y1="39" x2="367" y2="39" stroke-width="0.5" style="stroke:#181818;" />
+      <text x="172" y="57.5332" textLength="100" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">ProductID «FK»</text>
+      <text x="172" y="75.1426" textLength="80" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">UserID «FK»</text>
+      <text x="172" y="92.752" textLength="44" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">isRead</text>
+      <line x1="167" y1="99.8281" x2="367" y2="99.8281" stroke-width="1" style="stroke:#181818;" />
+      <ellipse cx="177" cy="114.1328" rx="3" ry="3" stroke-width="1" style="fill:black;stroke:black;" />
+      <text x="186" y="118.3613" textLength="176" lengthAdjust="spacing" font-family="sans-serif" font-size="14" style="fill:black;">UNIQUE (ProductID, UserID)</text>
+    </g>
+    <g id="link_User_Order">
+      <path d="M304.34 278.2 C322.71 298.71 345.14 323.76 365.14 346.09" id="User-Order" stroke-width="1" codeLine="67" style="fill:none;stroke:#181818;" />
+      <line x1="365.3765" y1="346.3473" x2="375.182" y2="348.3099" stroke-width="1" style="stroke:#181818;" />
+      <line x1="365.3765" y1="346.3473" x2="366.238" y2="356.3101" stroke-width="1" style="stroke:#181818;" />
+      <line x1="365.3765" y1="346.3473" x2="370.71" y2="352.31" stroke-width="1" style="stroke:#181818;" />
+      <line x1="367.0244" y1="342.1899" x2="361.0618" y2="347.5234" stroke-width="1" style="stroke:#181818;" />
+      <line x1="304.1515" y1="277.9756" x2="294.3433" y2="276.0261" stroke-width="1" style="stroke:#181818;" />
+      <line x1="304.1515" y1="277.9756" x2="303.2767" y2="268.0139" stroke-width="1" style="stroke:#181818;" />
+      <line x1="304.1515" y1="277.9756" x2="298.81" y2="272.02" stroke-width="1" style="stroke:#181818;" />
+      <line x1="302.509" y1="282.1352" x2="308.4646" y2="276.7937" stroke-width="1" style="stroke:#181818;" />
+    </g>
+    <g id="link_BasketProduct_User">
+      <path d="M133.88 121.88 C165.36 148.52 202.09 179.59 228.98 202.34" id="BasketProduct-User" stroke-width="1" codeLine="69" style="fill:none;stroke:#181818;" />
+      <line x1="234.779" y1="202.0028" x2="229.6128" y2="208.111" stroke-width="1" style="stroke:#181818;" />
+      <line x1="232.4885" y1="200.0654" x2="227.3222" y2="206.1736" stroke-width="1" style="stroke:#181818;" />
+      <line x1="229.1418" y1="202.4737" x2="235.25" y2="207.64" stroke-width="1" style="stroke:#181818;" />
+      <line x1="133.7082" y1="121.7463" x2="123.7253" y2="121.1611" stroke-width="1" style="stroke:#181818;" />
+      <line x1="133.7082" y1="121.7463" x2="131.4747" y2="111.9989" stroke-width="1" style="stroke:#181818;" />
+      <line x1="133.7082" y1="121.7463" x2="127.6" y2="116.58" stroke-width="1" style="stroke:#181818;" />
+      <line x1="132.6521" y1="126.0919" x2="137.8183" y2="119.9837" stroke-width="1" style="stroke:#181818;" />
+    </g>
+    <g id="link_BasketProduct_Product">
+      <path d="M138.34 119.55 C141.56 121.47 144.79 123.29 148 125 C218.02 162.19 242.95 154.17 316 185 C333.16 192.24 351.56 200.96 367.88 209.05" id="BasketProduct-Product" stroke-width="1" codeLine="70" style="fill:none;stroke:#181818;" />
+      <line x1="373.4369" y1="207.3449" x2="369.8649" y2="214.5031" stroke-width="1" style="stroke:#181818;" />
+      <line x1="370.7525" y1="206.0054" x2="367.1805" y2="213.1636" stroke-width="1" style="stroke:#181818;" />
+      <line x1="368.0717" y1="209.138" x2="375.23" y2="212.71" stroke-width="1" style="stroke:#181818;" />
+      <line x1="138.1367" y1="119.4172" x2="128.1796" y2="120.3425" stroke-width="1" style="stroke:#181818;" />
+      <line x1="138.1367" y1="119.4172" x2="134.4604" y2="110.1175" stroke-width="1" style="stroke:#181818;" />
+      <line x1="138.1367" y1="119.4172" x2="131.32" y2="115.23" stroke-width="1" style="stroke:#181818;" />
+      <line x1="137.7473" y1="123.8723" x2="141.9345" y2="117.0556" stroke-width="1" style="stroke:#181818;" />
+    </g>
+    <g id="link_Product_Order">
+      <path d="M417 294.34 C417 308.26 417 323.25 417 337.53" id="Product-Order" stroke-width="1" codeLine="72" style="fill:none;stroke:#181818;" />
+      <line x1="421" y1="341.84" x2="413" y2="341.84" stroke-width="1" style="stroke:#181818;" />
+      <line x1="421" y1="338.84" x2="413" y2="338.84" stroke-width="1" style="stroke:#181818;" />
+      <line x1="417" y1="337.84" x2="417" y2="345.84" stroke-width="1" style="stroke:#181818;" />
+      <line x1="417" y1="294.3" x2="411" y2="286.3" stroke-width="1" style="stroke:#181818;" />
+      <line x1="417" y1="294.3" x2="423" y2="286.3" stroke-width="1" style="stroke:#181818;" />
+      <line x1="417" y1="294.3" x2="417" y2="286.3" stroke-width="1" style="stroke:#181818;" />
+      <line x1="413" y1="296.3" x2="421" y2="296.3" stroke-width="1" style="stroke:#181818;" />
+    </g>
+    <g id="link_OrderProduct_Order">
+      <path d="M576.7 123.69 C542.84 183.12 489.73 276.35 454.16 338.78" id="OrderProduct-Order" stroke-width="1" codeLine="73" style="fill:none;stroke:#181818;" />
+      <line x1="455.5769" y1="344.3692" x2="448.6292" y2="340.4031" stroke-width="1" style="stroke:#181818;" />
+      <line x1="457.0641" y1="341.7638" x2="450.1164" y2="337.7977" stroke-width="1" style="stroke:#181818;" />
+      <line x1="454.086" y1="338.9123" x2="450.12" y2="345.86" stroke-width="1" style="stroke:#181818;" />
+      <line x1="576.7086" y1="123.6803" x2="575.4572" y2="113.7589" stroke-width="1" style="stroke:#181818;" />
+      <line x1="576.7086" y1="123.6803" x2="585.8828" y2="119.7011" stroke-width="1" style="stroke:#181818;" />
+      <line x1="576.7086" y1="123.6803" x2="580.67" y2="116.73" stroke-width="1" style="stroke:#181818;" />
+      <line x1="572.2431" y1="123.4372" x2="579.1934" y2="127.3986" stroke-width="1" style="stroke:#181818;" />
+    </g>
+    <g id="link_OrderProduct_Product">
+      <path d="M546.13 121.85 C519.69 144.91 489.43 171.31 464.85 192.75" id="OrderProduct-Product" stroke-width="1" codeLine="74" style="fill:none;stroke:#181818;" />
+      <line x1="464.3737" y1="198.4758" x2="459.1158" y2="192.4463" stroke-width="1" style="stroke:#181818;" />
+      <line x1="466.6347" y1="196.5041" x2="461.3768" y2="190.4746" stroke-width="1" style="stroke:#181818;" />
+      <line x1="464.7595" y1="192.8321" x2="458.73" y2="198.09" stroke-width="1" style="stroke:#181818;" />
+      <line x1="546.1476" y1="121.846" x2="548.2205" y2="112.0632" stroke-width="1" style="stroke:#181818;" />
+      <line x1="546.1476" y1="121.846" x2="556.1195" y2="121.0968" stroke-width="1" style="stroke:#181818;" />
+      <line x1="546.1476" y1="121.846" x2="552.17" y2="116.58" stroke-width="1" style="stroke:#181818;" />
+      <line x1="542.009" y1="120.1513" x2="547.275" y2="126.1737" stroke-width="1" style="stroke:#181818;" />
+    </g>
+    <g id="link_Order_PayRequest">
+      <path d="M417 471.5 C417 486.46 417 502.25 417 516.8" id="Order-PayRequest" stroke-width="1" codeLine="76" style="fill:none;stroke:#181818;" />
+      <line x1="421" y1="519.84" x2="413" y2="519.84" stroke-width="1" style="stroke:#181818;" />
+      <line x1="421" y1="516.84" x2="413" y2="516.84" stroke-width="1" style="stroke:#181818;" />
+      <line x1="417" y1="515.84" x2="417" y2="523.84" stroke-width="1" style="stroke:#181818;" />
+      <line x1="413" y1="468.11" x2="421" y2="468.11" stroke-width="1" style="stroke:#181818;" />
+      <line x1="413" y1="471.11" x2="421" y2="471.11" stroke-width="1" style="stroke:#181818;" />
+      <line x1="417" y1="472.11" x2="417" y2="464.11" stroke-width="1" style="stroke:#181818;" />
+    </g>
+    <g id="link_PayRequest_PayTransaction">
+      <path d="M417 633.5 C417 647.57 417 662.6 417 676.66" id="PayRequest-PayTransaction" stroke-width="1" codeLine="77" style="fill:none;stroke:#181818;" />
+      <line x1="417" y1="676.8" x2="423" y2="684.8" stroke-width="1" style="stroke:#181818;" />
+      <line x1="417" y1="676.8" x2="411" y2="684.8" stroke-width="1" style="stroke:#181818;" />
+      <line x1="417" y1="676.8" x2="417" y2="684.8" stroke-width="1" style="stroke:#181818;" />
+      <line x1="421" y1="674.8" x2="413" y2="674.8" stroke-width="1" style="stroke:#181818;" />
+      <line x1="413" y1="629.37" x2="421" y2="629.37" stroke-width="1" style="stroke:#181818;" />
+      <line x1="413" y1="632.37" x2="421" y2="632.37" stroke-width="1" style="stroke:#181818;" />
+      <line x1="417" y1="633.37" x2="417" y2="625.37" stroke-width="1" style="stroke:#181818;" />
+    </g>
+    <g id="link_Storehouse_Product">
+      <path d="M446.87 115.38 C442.05 134.6 436.47 156.86 431.44 176.9" id="Storehouse-Product" stroke-width="1" codeLine="79" style="fill:none;stroke:#181818;" />
+      <line x1="434.3257" y1="181.848" x2="426.568" y2="179.8943" stroke-width="1" style="stroke:#181818;" />
+      <line x1="435.0584" y1="178.9388" x2="427.3006" y2="176.9851" stroke-width="1" style="stroke:#181818;" />
+      <line x1="431.4237" y1="176.9922" x2="429.47" y2="184.75" stroke-width="1" style="stroke:#181818;" />
+      <line x1="446.8864" y1="115.3103" x2="443.0098" y2="106.0923" stroke-width="1" style="stroke:#181818;" />
+      <line x1="446.8864" y1="115.3103" x2="454.6502" y2="109.0077" stroke-width="1" style="stroke:#181818;" />
+      <line x1="446.8864" y1="115.3103" x2="448.83" y2="107.55" stroke-width="1" style="stroke:#181818;" />
+      <line x1="442.5203" y1="116.2785" x2="450.2806" y2="118.2222" stroke-width="1" style="stroke:#181818;" />
+    </g>
+    <g id="link_ProductSubscription_Product">
+      <path d="M324.72 131.45 C339.64 148.11 355.52 165.85 369.83 181.83" id="ProductSubscription-Product" stroke-width="1" codeLine="81" style="fill:none;stroke:#181818;" />
+      <line x1="375.7546" y1="182.4419" x2="369.7919" y2="187.7754" stroke-width="1" style="stroke:#181818;" />
+      <line x1="373.7545" y1="180.2059" x2="367.7918" y2="185.5394" stroke-width="1" style="stroke:#181818;" />
+      <line x1="370.1065" y1="182.1273" x2="375.44" y2="188.09" stroke-width="1" style="stroke:#181818;" />
+      <line x1="324.3815" y1="131.0656" x2="314.5733" y2="129.1161" stroke-width="1" style="stroke:#181818;" />
+      <line x1="324.3815" y1="131.0656" x2="323.5067" y2="121.1039" stroke-width="1" style="stroke:#181818;" />
+      <line x1="324.3815" y1="131.0656" x2="319.04" y2="125.11" stroke-width="1" style="stroke:#181818;" />
+      <line x1="322.739" y1="135.2252" x2="328.6946" y2="129.8837" stroke-width="1" style="stroke:#181818;" />
+    </g>
+    <g id="link_ProductSubscription_User">
+      <path d="M267 133.19 C267 150.65 267 169.17 267 185.54" id="ProductSubscription-User" stroke-width="1" codeLine="82" style="fill:none;stroke:#181818;" />
+      <line x1="271" y1="189.89" x2="263" y2="189.89" stroke-width="1" style="stroke:#181818;" />
+      <line x1="271" y1="186.89" x2="263" y2="186.89" stroke-width="1" style="stroke:#181818;" />
+      <line x1="267" y1="185.89" x2="267" y2="193.89" stroke-width="1" style="stroke:#181818;" />
+      <line x1="267" y1="133.11" x2="261" y2="125.11" stroke-width="1" style="stroke:#181818;" />
+      <line x1="267" y1="133.11" x2="273" y2="125.11" stroke-width="1" style="stroke:#181818;" />
+      <line x1="267" y1="133.11" x2="267" y2="125.11" stroke-width="1" style="stroke:#181818;" />
+      <line x1="263" y1="135.11" x2="271" y2="135.11" stroke-width="1" style="stroke:#181818;" />
+    </g>
+  </g>
+</svg>
