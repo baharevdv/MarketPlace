@@ -32,7 +32,9 @@
 </tbody>
 </table>
 
-### Product (Товары)
+### Product
+
+**(Товары)**
 
 <table>
 <thead>
@@ -66,7 +68,9 @@
 </tbody>
 </table>
 
-### ProductSubscription (Подписки пользователей на приход товара на склад)
+### ProductSubscription
+
+**(Подписки пользователей на приход товара на склад)**
 
 <table>
 <thead>
@@ -95,7 +99,9 @@
 
 В таблице должно действовать следующее ограничение (CONSTRAINT): `UNIQUE (ProductID, UserID)`.
 
-### Storehouse (Склад товара)
+### Storehouse
+
+**(Склад товара)**
 
 <table>
 <thead>
@@ -122,7 +128,9 @@
 </tbody>
 </table>
 
-### Order (Заказы)
+### Order
+
+**(Заказы)**
 
 <table>
 <thead>
@@ -171,7 +179,9 @@
 </tbody>
 </table>
 
-### BasketProduct (Товары в корзине)
+### BasketProduct
+
+**(Товары в корзине)**
 
 <table>
 <thead>
@@ -204,7 +214,9 @@
 </tbody>
 </table>
 
-### OrderProduct (Товары в заказе)
+### OrderProduct
+
+**(Товары в заказе)**
 
 <table>
 <thead>
@@ -237,7 +249,9 @@
 </tbody>
 </table>
 
-### PayRequest (Запросы на оплату)
+### PayRequest
+
+**(Запросы на оплату)**
 
 <table>
 <thead>
@@ -280,7 +294,9 @@
 </tbody>
 </table>
 
-### PayTransaction (Транзакции оплат)
+### PayTransaction
+
+**(Транзакции оплат)**
 
 <table>
 <thead>

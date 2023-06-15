@@ -53,7 +53,7 @@ entity PayTransaction {
 
 entity Storehouse{
 	ProductID <<FK>>
-	Count    
+	Count
 }
 
 entity ProductSubscription {
@@ -67,19 +67,19 @@ entity ProductSubscription {
 'Session }|--|| User
 User }|--|{ Order
 
-BasketProduct }|--|| User
+BasketProduct }o--|| User
 BasketProduct }|--|| Product
 
-Product }|--|| Order 
-OrderProduct  }|--|| Order 
-OrderProduct }|--|| Product
+Product }|--|| Order
+OrderProduct  }|--|| Order
+OrderProduct }o--|| Product
 
-Order ||--|| PayRequest
+Order ||--|{ PayRequest
 PayRequest ||--|{ PayTransaction
 
-Storehouse }|--|| Product
+Storehouse }o--|| Product
 
-ProductSubscription }|--|| Product
-ProductSubscription }|--|| User
+ProductSubscription }o--|| Product
+ProductSubscription }o--|| User
 
 @enduml
